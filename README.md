@@ -1,4 +1,4 @@
-To contribute please use the "Issues" Tab or direclty request a pull :) Also please see the last wishes: Hopes&Dreams
+To contribute please use the "Issues" Tab or direclty request a pull :) Also please see the last section: Hopes&Dreams
 
 DESCPTION: (yet to be done in Detail)
 This mods adds a new Xenotype: the Greenskin
