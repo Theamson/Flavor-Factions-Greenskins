@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <RulePackDef>
+    <defName>NamerFestivalGreenskin</defName>
+    <rulePack>
+      <rulesStrings>
+	  <li>r_ritualName->[festivalName]</li>
+	  
+        <li>festivalName->[GAdjective] [Gfestival]</li>
+        <li>festivalName->[Gfestival] of [GNomen]</li>
+
+
+        <li>Gfestival->Ritual</li>
+        <li>GAdjective->[GAdjString]</li>
+		<li>GNomen->[GNomenString]</li>
+
+
+      </rulesStrings>
+	        <rulesFiles>
+        <li>GAdjString->Names/GreenskinRulePacks_IdeoFestive_AdjNames</li>
+        <li>GNomenString->Names/GreenskinRulePacks_IdeoFestive_NomNames</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

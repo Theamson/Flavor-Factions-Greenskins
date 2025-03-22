@@ -1,0 +1,532 @@
+<Defs>
+
+  <GeneDef ParentName="GeneJawBase">
+    <defName>OrcHead</defName>
+    <label>Greenskin Head</label>
+    <description>Carriers of this gene tend to cover their faces with the blood of their foes.</description>
+    <iconPath>UI/Icons/Genes/Gene_HeadOrc</iconPath>
+	<displayCategory>Orc_Genes</displayCategory>	
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <forcedHeadTypes>
+      <li>Orc_Head_Male1</li>
+	  <li>Orc_Head_Male2</li>
+	  <li>Orc_Head_Male3</li>
+	  <li>Orc_Head_Male4</li>
+	  <li>Orc_Head_Male5</li>
+	  <li>Orc_Head_Male6</li>
+	  <li>Orc_Head_Male7</li>
+	  <li>Orc_Head_Male8</li>
+	  <li>Orc_Head_Male9</li>
+	  <li>Orc_Head_Male10</li>
+	  <li>Orc_Head_Male11</li>
+	  <li>Orc_Head_Male12</li>
+	  <li>Orc_Head_Male13</li>
+	  <li>Orc_Head_Male14</li>
+	  <li>Orc_Head_Male15</li>
+	  <li>Orc_Head_Male16</li>
+	  <li>Orc_Head_Male17</li>
+	  <li>Orc_Head_Male18</li>
+	  <li>Orc_Head_Male19</li>
+	  <li>Orc_Head_Male20</li>
+	  <li>Orc_Head_Male21</li>
+      <li>Orc_Head_Female1</li>
+	  <li>Orc_Head_Female2</li>
+	  <li>Orc_Head_Female3</li>
+	  <li>Orc_Head_Female4</li>
+	  <li>Orc_Head_Female5</li>
+	  <li>Orc_Head_Female6</li>
+	  <li>Orc_Head_Female7</li>
+	  <li>Orc_Head_Female8</li>
+	  <li>Orc_Head_Female9</li>
+	  <li>Orc_Head_Female10</li>
+	  <li>Orc_Head_Female11</li>
+	  <li>Orc_Head_Female12</li>
+	  <li>Orc_Head_Female13</li>
+	  <li>Orc_Head_Female14</li>
+	  <li>Orc_Head_Female15</li>
+	  <li>Orc_Head_Female16</li>
+	  <li>Orc_Head_Female17</li>
+	  <li>Orc_Head_Female18</li>
+	  <li>Orc_Head_Female19</li>
+	  <li>Orc_Head_Female20</li>
+	  <li>Orc_Head_Female21</li>
+	  
+    </forcedHeadTypes>
+    <selectionWeight>0.5</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+  </GeneDef>
+
+
+<!-- Female -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female1</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal1</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female2</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal2</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female3</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal3</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+   <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female4</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal4</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female5</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal5</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female6</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal6</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female7</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal7</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female8</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal8</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female9</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal9</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female10</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal10</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female11</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal11</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female12</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal12</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female13</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal13</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female14</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal14</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female15</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal15</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female16</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal16</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female17</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal17</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female18</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal18</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female19</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal19</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female20</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal20</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+<HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Female21</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Orc_Female_Average_Normal21</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Female</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+
+
+<!-- Male -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male1</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide1</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male2</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide2</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male3</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide3</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male4</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide4</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male5</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide5</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male6</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide6</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male7</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide7</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male8</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide8</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male9</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide9</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male10</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide10</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male11</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide11</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male12</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide12</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male13</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide13</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male14</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide14</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male15</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide15</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male16</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide16</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male17</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide17</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male18</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide18</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male19</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide19</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male20</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide20</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+      <HeadTypeDef ParentName="AverageBase">
+    <defName>Orc_Head_Male21</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Orc_Male_Average_Wide21</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+
+
+
+
+</Defs>

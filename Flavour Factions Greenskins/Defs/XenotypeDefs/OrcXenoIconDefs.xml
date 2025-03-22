@@ -1,0 +1,18 @@
+<Defs>
+  <XenotypeIconDef>
+    <defName>XenotypeIcon_Orc</defName>
+    <texPath>Xenotypes/XenotypeIcon_Orc</texPath>
+  </XenotypeIconDef>
+  
+  <XenotypeIconDef>
+    <defName>XenotypeIcon_OrcBehemoth</defName> 
+    <texPath>Xenotypes/XenotypeIcon_OrcBehemoth</texPath>
+  </XenotypeIconDef>
+  
+    <XenotypeIconDef>
+    <defName>XenotypeIcon_OrcHulk</defName> 
+    <texPath>Xenotypes/XenotypeIcon_OrcHulk</texPath>
+  </XenotypeIconDef>
+
+  
+</Defs>

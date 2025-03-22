@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_HideTentWall_Leather_Patch</defName>
+  <thing>DankPyon_HideTentWall</thing>
+  <stuff>Leather_Patch</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_FurBed_Leather_Patch_North</defName>
+  <thing>RR_FurBed</thing>
+  <stuff>Leather_Patch</stuff>
+</KCSG.SymbolDef>
+
+
+
+
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogColumn_DankPyon_RawDarkWood</defName>
+  <thing>DankPyon_LogColumn</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_FurBed_Leather_Patch_South</defName>
+  <thing>RR_FurBed</thing>
+  <stuff>Leather_Patch</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_FurBed_Leather_Patch_West</defName>
+  <thing>RR_FurBed</thing>
+  <stuff>Leather_Patch</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_FurBed_Leather_Patch_East</defName>
+  <thing>RR_FurBed</thing>
+  <stuff>Leather_Patch</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_RawWood</defName>
+  <thing>DankPyon_RawWood</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Frame_Log_DankPyon_RawDarkWood_East</defName>
+  <thing>DankPyon_Frame_Log</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogChair_DankPyon_RawWood_North</defName>
+  <thing>DankPyon_LogChair</thing>
+  <stuff>DankPyon_RawWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicBasketFabric_Leather_Patch_South</defName>
+  <thing>ASNeolithicBasketFabric</thing>
+  <stuff>Leather_Patch</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicBasketFabric_Leather_Bear_South</defName>
+  <thing>ASNeolithicBasketFabric</thing>
+  <stuff>Leather_Bear</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogBench1x2c_DankPyon_RawWood_North</defName>
+  <thing>DankPyon_LogBench1x2c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>TorchLamp_DankPyon_RawWood_Totemic</defName>
+  <thing>TorchLamp</thing>
+  <stuff>DankPyon_RawWood</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_DryingRack_Big_DankPyon_RawDarkWood_North</defName>
+  <thing>DankPyon_DryingRack_Big</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicLargePotChunkSandstone_South</defName>
+  <thing>ASNeolithicLargePotChunkSandstone</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveSmithingTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveSmithingTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureLarge_DankPyon_DarkWood_Totemic</defName>
+  <thing>SculptureLarge</thing>
+  <stuff>DankPyon_DarkWood</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicPlinthChunkSandstone</defName>
+  <thing>ASNeolithicPlinthChunkSandstone</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_DryingRack_Small_DankPyon_RawDarkWood_North</defName>
+  <thing>DankPyon_DryingRack_Small</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogTable1x3c_DankPyon_RawWood_East</defName>
+  <thing>DankPyon_LogTable1x3c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogBench1x2c_DankPyon_RawWood_South</defName>
+  <thing>DankPyon_LogBench1x2c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogTable1x2c_DankPyon_RawWood_North</defName>
+  <thing>DankPyon_LogTable1x2c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicPlinthWoody_WoodLog</defName>
+  <thing>ASNeolithicPlinthWoody</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Frame_Log_DankPyon_RawDarkWood_West</defName>
+  <thing>DankPyon_Frame_Log</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogBench1x3c_DankPyon_RawWood_West</defName>
+  <thing>DankPyon_LogBench1x3c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_TanningRack_DankPyon_RawDarkWood_East</defName>
+  <thing>DankPyon_TanningRack</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_AssortedHerbs_WoodLog_South</defName>
+  <thing>DankPyon_Shelf_AssortedHerbs</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveButcherTable_BlocksMarble_South</defName>
+  <thing>VBY_PrimitiveButcherTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_TableMarket_Meats_WoodLog_North</defName>
+  <thing>DankPyon_TableMarket_Meats</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_StewPot_Steel_South</defName>
+  <thing>DankPyon_StewPot</thing>
+  <stuff>Steel</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveButcherTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveButcherTable</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveButcherTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveButcherTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureSmall_DankPyon_DarkWood_Totemic</defName>
+  <thing>SculptureSmall</thing>
+  <stuff>DankPyon_DarkWood</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogChair_DankPyon_RawWood_East</defName>
+  <thing>DankPyon_LogChair</thing>
+  <stuff>DankPyon_RawWood</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_ButchersBlock_DankPyon_RawDarkWood_West</defName>
+  <thing>DankPyon_ButchersBlock</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_DryingRack_Small_DankPyon_RawDarkWood_East</defName>
+  <thing>DankPyon_DryingRack_Small</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveButcherTable_BlocksMarble_West</defName>
+  <thing>VBY_PrimitiveButcherTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_TableMarket_Meats_WoodLog_East</defName>
+  <thing>DankPyon_TableMarket_Meats</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureLarge_WoodLog_Totemic</defName>
+  <thing>SculptureLarge</thing>
+  <stuff>WoodLog</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_TanningRack_DankPyon_RawDarkWood_North</defName>
+  <thing>DankPyon_TanningRack</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_StoneStool_BlocksGranite</defName>
+  <thing>RR_StoneStool</thing>
+  <stuff>BlocksGranite</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_HappyPowder_WoodLog_West</defName>
+  <thing>DankPyon_Shelf_HappyPowder</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureLarge_DankPyon_BlocksClay_Totemic</defName>
+  <thing>SculptureLarge</thing>
+  <stuff>DankPyon_BlocksClay</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_RedHerbs_WoodLog_South</defName>
+  <thing>DankPyon_Shelf_RedHerbs</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveTabletTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveTabletTable</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveResearchTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveResearchTable</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveRangedWeaponTable_BlocksMarble_West</defName>
+  <thing>VBY_PrimitiveRangedWeaponTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveToolBench_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveToolBench</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicTextileBundleLeather_Leather_Bear_West</defName>
+  <thing>ASNeolithicTextileBundleLeather</thing>
+  <stuff>Leather_Bear</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveTailoringTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveTailoringTable</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicBasketFabric_Leather_Patch_North</defName>
+  <thing>ASNeolithicBasketFabric</thing>
+  <stuff>Leather_Patch</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveMeleeWeaponTable_BlocksMarble_South</defName>
+  <thing>VBY_PrimitiveMeleeWeaponTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveToolBench_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveToolBench</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_RawhideRack_DankPyon_RawDarkWood_North</defName>
+  <thing>DankPyon_RawhideRack</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Frame_Log_DankPyon_RawDarkWood_South</defName>
+  <thing>DankPyon_Frame_Log</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveRangedWeaponTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveRangedWeaponTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_DryingRack_Small_DankPyon_RawDarkWood_South</defName>
+  <thing>DankPyon_DryingRack_Small</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicChunkStorageChunkSandstone_East</defName>
+  <thing>ASNeolithicChunkStorageChunkSandstone</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveStoneCuttingTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveStoneCuttingTable</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicChunkStorageChunkSandstone_North</defName>
+  <thing>ASNeolithicChunkStorageChunkSandstone</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveStoneCuttingTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveStoneCuttingTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicChunkStorageChunkSandstone_West</defName>
+  <thing>ASNeolithicChunkStorageChunkSandstone</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveSmithingTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveSmithingTable</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_HappyPowder_WoodLog_South</defName>
+  <thing>DankPyon_Shelf_HappyPowder</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveTabletTable_BlocksMarble_West</defName>
+  <thing>VBY_PrimitiveTabletTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveResearchTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveResearchTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_StoneThrone_BlocksGranite_East</defName>
+  <thing>RR_StoneThrone</thing>
+  <stuff>BlocksGranite</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveTabletTable_BlocksMarble_South</defName>
+  <thing>VBY_PrimitiveTabletTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveStylingStation_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveStylingStation</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_AssortedHerbs_WoodLog_East</defName>
+  <thing>DankPyon_Shelf_AssortedHerbs</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureSmall_BlocksSandstone_Totemic</defName>
+  <thing>SculptureSmall</thing>
+  <stuff>BlocksSandstone</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_GreenHerbs_WoodLog_South</defName>
+  <thing>DankPyon_Shelf_GreenHerbs</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_GreenHerbs_WoodLog_East</defName>
+  <thing>DankPyon_Shelf_GreenHerbs</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_TanningRack_DankPyon_RawDarkWood_West</defName>
+  <thing>DankPyon_TanningRack</thing>
+  <stuff>DankPyon_RawDarkWood</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveBrewery_HerbalistBench_BlocksMarble_West</defName>
+  <thing>VBY_PrimitiveBrewery_HerbalistBench</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveStylingStation_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveStylingStation</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_DriedMeat_Human</defName>
+  <thing>DankPyon_DriedMeat_Human</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_DriedMeat</defName>
+  <thing>DankPyon_DriedMeat</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_FurDoubleBed_Leather_Patch_North</defName>
+  <thing>RR_FurDoubleBed</thing>
+  <stuff>Leather_Patch</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogBench1x4c_DankPyon_RawWood_South</defName>
+  <thing>DankPyon_LogBench1x4c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogTable1x4c_DankPyon_RawWood_North</defName>
+  <thing>DankPyon_LogTable1x4c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureSmall_WoodLog_Totemic</defName>
+  <thing>SculptureSmall</thing>
+  <stuff>WoodLog</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_StoneThrone_BlocksGranite_South</defName>
+  <thing>RR_StoneThrone</thing>
+  <stuff>BlocksGranite</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureGrand_WoodLog_Totemic</defName>
+  <thing>SculptureGrand</thing>
+  <stuff>WoodLog</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_FurDoubleBed_Leather_Patch_East</defName>
+  <thing>RR_FurDoubleBed</thing>
+  <stuff>Leather_Patch</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_StoneThrone_BlocksGranite_North</defName>
+  <thing>RR_StoneThrone</thing>
+  <stuff>BlocksGranite</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_LogTable1x3c_DankPyon_RawWood_South</defName>
+  <thing>DankPyon_LogTable1x3c</thing>
+  <stuff>DankPyon_RawWood</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_StoneThrone_BlocksGranite_West</defName>
+  <thing>RR_StoneThrone</thing>
+  <stuff>BlocksGranite</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_WoodThrone_WoodLog_North</defName>
+  <thing>RR_WoodThrone</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>RR_WoodThrone_WoodLog_South</defName>
+  <thing>RR_WoodThrone</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>SculptureGrand_DankPyon_BlocksClay_Totemic</defName>
+  <thing>SculptureGrand</thing>
+  <stuff>DankPyon_BlocksClay</stuff>
+  <styleCategory>Totemic</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicWoodPile_WoodLog_South</defName>
+  <thing>ASNeolithicWoodPile</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicHayPile_WoodLog</defName>
+  <thing>ASNeolithicHayPile</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Plant_MindwortWild</defName>
+  <thing>DankPyon_Plant_MindwortWild</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicWoodPile_WoodLog_West</defName>
+  <thing>ASNeolithicWoodPile</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicWoodPile_WoodLog_North</defName>
+  <thing>ASNeolithicWoodPile</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
+
+<!-- RISKY -->
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveCraftingTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveCraftingTable</thing>
+  <stuff>BlocksMarble</stuff>
+  
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveCraftingTable_BlocksMarble_South</defName>
+  <thing>VBY_PrimitiveCraftingTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveCraftingTable_BlocksMarble_West</defName>
+  <thing>VBY_PrimitiveCraftingTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveCraftingTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveCraftingTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveCraftingTable_BlocksMarble</defName>
+  <thing>VBY_PrimitiveCraftingTable</thing>
+  <stuff>BlocksMarble</stuff>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_StewPot_Steel_East</defName>
+  <thing>DankPyon_StewPot</thing>
+  <stuff>Steel</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_StewPot_Steel_West</defName>
+  <thing>DankPyon_StewPot</thing>
+  <stuff>Steel</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_StewPot_Steel_North</defName>
+  <thing>DankPyon_StewPot</thing>
+  <stuff>Steel</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveBrewery_HerbalistBench_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveBrewery_HerbalistBench</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveBrewery_HerbalistBench_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveBrewery_HerbalistBench</thing>
+  <stuff>BlocksMarble</stuff>
+  
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveBrewery_HerbalistBench_BlocksMarble_South</defName>
+  <thing>VBY_PrimitiveBrewery_HerbalistBench</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveStylingStation_BlocksMarble_South</defName>
+  <thing>VBY_PrimitiveStylingStation</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_AssortedHerbs_WoodLog_West</defName>
+  <thing>DankPyon_Shelf_AssortedHerbs</thing>
+  <stuff>WoodLog</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_Shelf_AssortedHerbs_WoodLog_North</defName>
+  <thing>DankPyon_Shelf_AssortedHerbs</thing>
+  <stuff>WoodLog</stuff>
+  
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveMeleeWeaponTable_BlocksMarble_North</defName>
+  <thing>VBY_PrimitiveMeleeWeaponTable</thing>
+  <stuff>BlocksMarble</stuff>
+  
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveMeleeWeaponTable_BlocksMarble_West</defName>
+  <thing>VBY_PrimitiveMeleeWeaponTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveMeleeWeaponTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveMeleeWeaponTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveTailoringTable_BlocksMarble_East</defName>
+  <thing>VBY_PrimitiveTailoringTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveTailoringTable_BlocksMarble_West</defName>
+  <thing>VBY_PrimitiveTailoringTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBY_PrimitiveTailoringTable_BlocksMarble_South</defName>
+  <thing>VBY_PrimitiveTailoringTable</thing>
+  <stuff>BlocksMarble</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicTextileBundleLeather_Leather_Bear_East</defName>
+  <thing>ASNeolithicTextileBundleLeather</thing>
+  <stuff>Leather_Bear</stuff>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicTextileBundleLeather_Leather_Bear_South</defName>
+  <thing>ASNeolithicTextileBundleLeather</thing>
+  <stuff>Leather_Bear</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>ASNeolithicTextileBundleLeather_Leather_Bear_North</defName>
+  <thing>ASNeolithicTextileBundleLeather</thing>
+  <stuff>Leather_Bear</stuff>
+
+</KCSG.SymbolDef>
+
+
+</Defs>

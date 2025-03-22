@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Shared content -->
+
+  <RulePackDef>
+    <defName>NamerIdeoGreenskin</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->Greenskin Paganism</li>
+        <li>r_ideoAdjective->Greenskin Paganistic</li>
+        <li>r_memberName->Greenskin Pagan</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

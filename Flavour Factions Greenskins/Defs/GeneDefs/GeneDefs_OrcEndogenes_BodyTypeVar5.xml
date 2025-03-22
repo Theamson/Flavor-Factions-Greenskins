@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<GeneDef ParentName="BS_BodyBase">
+
+    <defName>Orc_MaleHulk5</defName>
+    <label>Male Greenskin Body Hulk Var5</label>
+    <description>Carriers of these gene tend to cover their body with the blood of their vanished foes. An artful, yet gruesome display.</description>
+    <geneClass>BetterPrerequisites.PGene</geneClass>
+		<displayCategory>ORC_DEV</displayCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>1</selectionWeight>
+    <displayOrderInCategory>5</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_BodyOrcMale</iconPath>
+    <fur>Orc_Body5</fur>
+	<bodyType>Hulk</bodyType>
+    <tattoosVisible>false</tattoosVisible>
+    <skinIsHairColor>false</skinIsHairColor>
+    <statOffsets>
+      <SM_Food_Need_Capacity>2</SM_Food_Need_Capacity>
+    </statOffsets>
+    <modExtensions>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+        <backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+		<forGenderOnly>Male</forGenderOnly>
+      </li>
+      <li Class="BetterPrerequisites.GeneExtension">
+        <thingDefSwap MayRequire="erdelf.HumanoidAlienRaces">BS_GluttonRace</thingDefSwap>
+        <forceThingDefSwap>false</forceThingDefSwap>
+      </li>
+    </modExtensions>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <debugLabel>Fur</debugLabel>
+        <nodeClass>BigAndSmall.PawnRenderNode_FurSkinClr</nodeClass>
+        <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+        <baseLayer>5</baseLayer>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <colorType>Skin</colorType>
+        <!-- <colorType>Skin</colorType> -->
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  
+  
+  <GeneDef ParentName="BS_BodyBase">
+		
+
+    <defName>Orc_Average5</defName>
+    <label>Greenskin Body Var5</label>
+    <description>Carriers of these gene tend to cover their body with the blood of their vanished foes. An artful, yet gruesome display.</description>
+    <geneClass>BetterPrerequisites.PGene</geneClass>
+	<displayCategory>ORC_DEV</displayCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>1</selectionWeight>
+    <displayOrderInCategory>15</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_BodyOrcAverage</iconPath>
+    <fur>Orc_Body5</fur>
+	<bodyType>Standard</bodyType>
+    <tattoosVisible>false</tattoosVisible>
+    <skinIsHairColor>false</skinIsHairColor>
+    <statOffsets>
+      <SM_Food_Need_Capacity>2</SM_Food_Need_Capacity>
+    </statOffsets>
+    <modExtensions>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+        <backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+        <backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+      </li>
+      <li Class="BetterPrerequisites.GeneExtension">
+        <thingDefSwap MayRequire="erdelf.HumanoidAlienRaces">BS_GluttonRace</thingDefSwap>
+        <forceThingDefSwap>false</forceThingDefSwap>
+      </li>
+    </modExtensions>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <parentTagDef>Body</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <debugLabel>Fur</debugLabel>
+        <nodeClass>BigAndSmall.PawnRenderNode_FurSkinClr</nodeClass>
+        <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+        <baseLayer>5</baseLayer>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <colorType>Skin</colorType>
+        <!-- <colorType>Skin</colorType> -->
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  
+  
+ 
+  
+</Defs>

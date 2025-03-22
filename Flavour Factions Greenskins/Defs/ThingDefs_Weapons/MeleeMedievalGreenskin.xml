@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="BaseMeleeWeaponGreen" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Neolithic</techLevel>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <relicChance>1</relicChance>
+
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+  <ThingDef Name="BaseMeleeWeapon_SharpGreen" ParentName="BaseMeleeWeaponGreen" Abstract="True">
+    <weaponClasses>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+
+  </ThingDef>
+
+  <ThingDef Name="BaseMeleeWeapon_SharpGreen_Quality" Abstract="True" ParentName="BaseMeleeWeapon_SharpGreen">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="BaseMeleeWeapon_BluntGreen" ParentName="BaseMeleeWeaponGreen" Abstract="True">
+    <weaponClasses>
+      <li>MeleeBlunt</li>
+    </weaponClasses>
+
+  </ThingDef>
+
+  <ThingDef Name="BaseMeleeWeapon_BluntGreen_Quality" Abstract="True" ParentName="BaseMeleeWeapon_Sharp">
+    <weaponClasses Inherit="False">
+      <li>MeleeBlunt</li>
+    </weaponClasses>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_SharpGreen_Quality">
+    <defName>Teamson_Greenskin_RustedLongspear</defName>
+    <label>Rusted Longspear</label>
+    <techLevel>Medieval</techLevel>
+    <description>A rusted Spear made from a weapon looted on the battlefield. A particularly favorite weapon of the barbarian clansmen of middling wealth. A deadly cutter, and allowing distance to strike at targets with odd percision for such a crude thing.</description>
+    <graphicData>
+      <texPath>Weapons/Barbarian_2hspear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.8</drawSize>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <weaponTags>
+      <li>Teamson_Greenskins_T1_2h</li>
+      <li>Teamson_Greenskins_T0_2h</li>
+
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <burnableByRecipe>True</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.4</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+	  <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.8</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+
+  </ThingDef>
+   <ThingDef ParentName="BaseMeleeWeapon_SharpGreen_Quality">
+    <defName>Teamson_Greenskin_RustedMaul</defName>
+    <label>Crude Maul</label>
+    <techLevel>Medieval</techLevel>
+    <description>A Crude Maul made from a weapon looted on the battlefield; it is fitted with the skull of a fallen enemy atop the mace. Spikes of the mace's devilish design poke through the dried, bleached skull. It inspires terror, fear, and most of all, brings death to those that think they can hide behind their armor..</description>
+    <graphicData>
+      <texPath>Weapons/Barbarian_2hMaul</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <weaponTags>
+ 
+      <li>Teamson_Greenskins_T2_2h</li>
+      <li>Teamson_Greenskins_T3_2h</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <burnableByRecipe>True</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>3.8</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+
+  </ThingDef>
+  
+    <ThingDef ParentName="BaseMeleeWeapon_SharpGreen_Quality">
+    <defName>Teamson_Greenskin_RustedShortspear</defName>
+    <label>Rusted Shortspear</label>
+    <techLevel>Medieval</techLevel>
+    <description>A rusted Shortspear made from a weapon looted on the battlefield. A particularly favorite weapon of the barbarian clansmen of middling wealth. A deadly cutter, and allowing distance to strike at targets with odd percision for such a crude thing.</description>
+    <graphicData>
+      <texPath>Weapons/Barbarian_1hspear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <uiIconScale>1.1</uiIconScale>
+    <weaponTags>
+            <li>Teamson_Greenskins_T0_1h</li>
+			<li>Teamson_Greenskins_T1_1h</li>
+			<li>Teamson_Greenskins_T2_1h</li>
+
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <burnableByRecipe>True</burnableByRecipe>
+    <tools>
+
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+	  <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.4</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+	  </tools>
+	      <modExtensions>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+     </ThingDef>
+  
+   <ThingDef ParentName="BaseMeleeWeapon_SharpGreen_Quality">
+    <defName>Teamson_Greenskin_RustedFlail</defName>
+    <label>Rusted Skull Flail</label>
+    <techLevel>Medieval</techLevel>
+    <description>A rusted Flail made from a weapon looted on the battlefield; it is fitted with the skull of a fallen enemy atop the mace. Spikes of the mace's devilish design poke through the dried, bleached skull. It inspires terror, fear, and most of all, brings death to those that think they can hide behind their armor..</description>
+    <graphicData>
+      <texPath>Weapons/Barbarian_Flail</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <weaponTags>
+			<li>Teamson_Greenskins_T2_1h</li>
+			<li>Teamson_Greenskins_T3_1h</li>
+			<li>Teamson_Greenskins_T4_1h</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <burnableByRecipe>True</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.8</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+		      <modExtensions>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseMeleeWeapon_SharpGreen_Quality">
+    <defName>Teamson_Greenskin_RustedCrudeAxe</defName>
+    <label>Crude Rusted Battle Axe</label>
+    <techLevel>Medieval</techLevel>
+    <description>A crude and rusted Battle Axe made from a weapon looted on the battlefield; larger and more centered on combat than smaller axes. A vile, deadly weapon just as likely to give tetanus as it is to give terrible cuts..</description>
+    <graphicData>
+      <texPath>Weapons/Barbarian_2hCrudeAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <weaponTags>
+      <li>Teamson_Greenskins_T1_2h</li>
+      <li>Teamson_Greenskins_T2_2h</li>
+      <li>Teamson_Greenskins_T3_2h</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <burnableByRecipe>True</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>3.6</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+	 </ThingDef>
+	
+	  <ThingDef ParentName="BaseMeleeWeapon_SharpGreen_Quality">
+    <defName>Teamson_Greenskin_Barbarian_LongAxe</defName>
+    <label>Rusted Longaxe</label>
+    <techLevel>Medieval</techLevel>
+    <description>A rusted Longaxe made from a weapon looted on the battlefield; larger and more centered on combat than smaller axes. A vile, deadly weapon just as likely to give tetanus as it is to give terrible cuts..</description>
+    <graphicData>
+      <texPath>Weapons/Barbarian_LongAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.4</drawSize>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <weaponTags>
+      <li>Teamson_Greenskins_T1_2h</li>
+      <li>Teamson_Greenskins_T2_2h</li>
+      <li>Teamson_Greenskins_T3_2h</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <burnableByRecipe>True</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.8</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+
+  </ThingDef>
+  
+  
+  
+  
+
+</Defs>

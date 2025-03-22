@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>GreenskinUnknownOrigin</defName>
+    <title>Unknown Origin</title>
+    <titleShort>tribal</titleShort>
+    <description>Not much is known about [PAWN_nameDef]'s origin and [PAWN_pronoun] probably doesn't know it [PAWN_possessive]self. [PAWN_pronoun] likely endured a childhood filled with violence and the harsh realities of greenskin life. This tough upbringing has made [PAWN_pronoun] resilient and adaptable, capable of surviving in the harshest conditions.</description>
+    <slot>Childhood</slot>
+    <skillGains>
+	<Intellectual>-5</Intellectual>
+    </skillGains>
+	    <forcedTraits>
+      <Bloodlust>0</Bloodlust>
+	  <Cannibal>0</Cannibal>
+    </forcedTraits>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+
+    </spawnCategories>
+	    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  
+
+</Defs>
+
+

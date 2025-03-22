@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBoness</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decoboness</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBonesss</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decobonesss</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBonessss</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decobonessss</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBonesssss</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decobonesssss</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBonessssss</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decobonessssss</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBonesssssss</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decobonesssssss</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBonessssssss</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decobonessssssss</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	    <ThingDef ParentName="BuildingBase">
+    <defName>RR_DecoBonesssssssss</defName>
+    <label>decorative tusks</label>
+    <description>Ornately painted tusks and bones for ceremonial or decorative purposes.</description>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+        <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/Furniture/decobones/decobonesssssssss</texPath>
+	   <graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.1,0.1,0.1,0.1)</rect>
+      </damageData>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+	    <MeditationFocusStrength>0.4</MeditationFocusStrength>
+      <Beauty>3</Beauty>
+	  <Mass>3</Mass>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+    <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+        <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+             <li>Morbid</li>
+			 <li>Tribal</li>
+        </focusTypes>
+        </li>
+    </comps>
+
+    </ThingDef>
+	
+	
+
+</Defs>

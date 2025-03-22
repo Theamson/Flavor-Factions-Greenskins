@@ -1,0 +1,16 @@
+<Defs>
+
+  <GeneCategoryDef>
+    <defName>ORC_DEV</defName>
+    <label>Greenskin Genes DEV. "Sorry, this is just a workaround."</label>
+    <displayPriorityInXenotype>-99998</displayPriorityInXenotype>
+  </GeneCategoryDef>
+  
+    <GeneCategoryDef>
+    <defName>Orc_Genes</defName>
+    <label>Greenskin Genes.</label>
+    <displayPriorityInXenotype>-99997</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+
+</Defs>

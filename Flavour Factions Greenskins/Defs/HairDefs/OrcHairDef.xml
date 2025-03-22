@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HairDef Abstract="True" Name="OrcishHairstyles">
+    <requiredGene>OrcHairGene</requiredGene>
+    <styleTags>
+      <li>OrcishHairstyle</li>
+    </styleTags>
+    <styleGender>Male</styleGender>
+  </HairDef>
+  
+    <HairDef Abstract="True" Name="OrcishHairstylesFemale">
+    <requiredGene>OrcHairGene</requiredGene>
+    <styleTags>
+      <li>OrcishHairstyleFemale</li>
+    </styleTags>
+    <styleGender>Female</styleGender>
+  </HairDef>
+  
+      <HairDef Abstract="True" Name="OrcishHairstylesUni">
+    <requiredGene>OrcHairGene</requiredGene>
+    <styleTags>
+      <li>OrcishHairstyleUni</li>
+    </styleTags>
+      </HairDef>
+
+    <HairDef Abstract="True" Name="OrcishBehemothHairstyles">
+    <requiredGene>OrcBehemothHairGene</requiredGene>
+    <styleTags>
+      <li>OrcishHairstyleBehemoth</li>
+    </styleTags>
+	<styleGender>Male</styleGender>
+      </HairDef>
+
+ <!--=============================== Hair Uni ================================-->
+
+
+	
+<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoniBun4_Uni</defName>
+		<label>Tribal_AntiPoniBun4_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoniBun4_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoni5_Uni</defName>
+		<label>Tribal_AntiPoni5_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoni5_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoniBun3_Uni</defName>
+		<label>Tribal_AntiPoniBun3_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoniBun3_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoni4_Uni</defName>
+		<label>Tribal_AntiPoni4_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoni4_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoni3_Uni</defName>
+		<label>Tribal_AntiPoni3_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoni3_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoniBun2_Uni</defName>
+		<label>Tribal_AntiPoniBun2_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoniBun2_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoniBun1_Uni</defName>
+		<label>Tribal_AntiPoniBun1_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoniBun1_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoni2_Uni</defName>
+		<label>Tribal_AntiPoni2_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoni2_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_AntiPoni1_Uni</defName>
+		<label>Tribal_AntiPoni1_Uni</label>
+				<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoni1_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_Bun5_Uni</defName>
+		<label>Tribal_Bun5_Uni</label>
+			<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bun5_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_Bun2_Uni</defName>
+		<label>Tribal_Bun2_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bun2_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_Bun1_Uni</defName>
+		<label>Tribal_Bun1_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bun1_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_ShortBun3_Uni</defName>
+		<label>Tribal_ShortBun3_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBun3_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_ShortBun1_Uni</defName>
+		<label>Tribal_ShortBun1_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBun1_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_LongBun5_Uni</defName>
+		<label>Tribal_LongBun5_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBun5_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_LongBun4_Uni</defName>
+		<label>Tribal_LongBun4_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBun4_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_LongBun3_Uni</defName>
+		<label>Tribal_LongBun3_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBun3_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_ShortBraid1_Uni</defName>
+		<label>Tribal_ShortBraid1_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBraid1_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_MidBraid4_Uni</defName>
+		<label>Tribal_MidBraid4_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidBraid4_Uni</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesUni">
+		<defName>Tribal_MidBraid3_Uni</defName>
+		<label>Tribal_MidBraid3_Uni</label>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidBraid3_Uni</texPath>
+		</HairDef>
+
+
+ <!--=============================== Hair Female ================================-->
+
+
+	
+<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun8_Female</defName>
+		<label>Tribal_LongSideCutBun8_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun8_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun7_Female</defName>
+		<label>Tribal_LongSideCutBun7_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun7_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun6_Female</defName>
+		<label>Tribal_LongSideCutBun6_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun6_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun5_Female</defName>
+		<label>Tribal_LongSideCutBun5_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun5_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun4_Female</defName>
+		<label>Tribal_LongSideCutBun4_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun4_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun3_Female</defName>
+		<label>Tribal_LongSideCutBun3_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun3_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun2_Female</defName>
+		<label>Tribal_LongSideCutBun2_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun2_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCutBun1_Female</defName>
+		<label>Tribal_LongSideCutBun1_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCutBun1_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut11_Female</defName>
+		<label>Tribal_LongSideCut11_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut11_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut10_Female</defName>
+		<label>Tribal_LongSideCut10_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut10_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut9_Female</defName>
+		<label>Tribal_LongSideCut9_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut9_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut8_Female</defName>
+		<label>Tribal_LongSideCut8_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut8_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut7_Female</defName>
+		<label>Tribal_LongSideCut7_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut7_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut6_Female</defName>
+		<label>Tribal_LongSideCut6_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut6_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut5_Female</defName>
+		<label>Tribal_LongSideCut5_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut5_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut4_Female</defName>
+		<label>Tribal_LongSideCut4_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut4_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut3_Female</defName>
+		<label>Tribal_LongSideCut3_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut3_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut2_Female</defName>
+		<label>Tribal_LongSideCut2_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut2_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongSideCut1_Female</defName>
+		<label>Tribal_LongSideCut1_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongSideCut1_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_MidSideCut4_Female</defName>
+		<label>Tribal_MidSideCut4_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidSideCut4_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_MidSideCut3_Female</defName>
+		<label>Tribal_MidSideCut3_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidSideCut3_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_MidSideCut2_Female</defName>
+		<label>Tribal_MidSideCut2_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidSideCut2_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_MidSideCut1_Female</defName>
+		<label>Tribal_MidSideCut1_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidSideCut1_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_ShortSideCut4_Female</defName>
+		<label>Tribal_ShortSideCut4_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortSideCut4_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_ShortSideCut3_Female</defName>
+		<label>Tribal_ShortSideCut3_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortSideCut3_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_ShortSideCut2_Female</defName>
+		<label>Tribal_ShortSideCut2_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortSideCut2_Female</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_ShortSideCut1_Female</defName>
+		<label>Tribal_ShortSideCut1_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortSideCut1_Female</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid1_Female</defName>
+		<label>Tribal_LongBraid1_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid1_Female</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid2_Female</defName>
+		<label>Tribal_LongBraid2_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid2_Female</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid3_Female</defName>
+		<label>Tribal_LongBraid3_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid3_Female</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid4_Female</defName>
+		<label>Tribal_LongBraid4_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid4_Female</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid5_Female</defName>
+		<label>Tribal_LongBraid5_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid5_Female</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid6_Female</defName>
+		<label>Tribal_LongBraid6_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid6_Female</texPath>
+		</HairDef>
+		
+						<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid7_Female</defName>
+		<label>Tribal_LongBraid7_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid7_Female</texPath>
+		</HairDef>
+		
+						<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid8_Female</defName>
+		<label>Tribal_LongBraid8_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid8_Female</texPath>
+		</HairDef>
+		
+						<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid9_Female</defName>
+		<label>Tribal_LongBraid9_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid9_Female</texPath>
+		</HairDef>
+		
+						<HairDef ParentName="OrcishHairstylesFemale">
+		<defName>Tribal_LongBraid10_Female</defName>
+		<label>Tribal_LongBraid10_Female</label>
+		<styleGender>Female</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid10_Female</texPath>
+		</HairDef>
+		
+		
+
+
+
+
+	
+		
+	 <!--=============================== Hair Male ================================-->
+
+
+<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Spikes6_Male</defName>
+		<label>Tribal_Spikes6_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes6_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Spikes5_Male</defName>
+		<label>Tribal_Spikes5_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes5_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Spikes4_Male</defName>
+		<label>Tribal_Spikes4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Spikes3_Male</defName>
+		<label>Tribal_Spikes3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Spikes2_Male</defName>
+		<label>Tribal_Spikes2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Spikes1_Male</defName>
+		<label>Tribal_Spikes1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Poni6_Male</defName>
+		<label>Tribal_Poni6_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Poni6_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Poni5_Male</defName>
+		<label>Tribal_Poni5_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Poni5_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Poni4_Male</defName>
+		<label>Tribal_Poni4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Poni4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Poni3_Male</defName>
+		<label>Tribal_Poni3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Poni3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Poni2_Male</defName>
+		<label>Tribal_Poni2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Poni2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Poni1_Male</defName>
+		<label>Tribal_Poni1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Poni1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_SmallPoniSpiky4_Male</defName>
+		<label>Tribal_SmallPoniSpiky4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_SmallPoniSpiky4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_SmallPoniSpiky3_Male</defName>
+		<label>Tribal_SmallPoniSpiky3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_SmallPoniSpiky3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_SmallPoniSpiky2_Male</defName>
+		<label>Tribal_SmallPoniSpiky2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_SmallPoniSpiky2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_SmallPoniSpiky1_Male</defName>
+		<label>Tribal_SmallPoniSpiky1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_SmallPoniSpiky1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_AntiPoni1_Male</defName>
+		<label>Tribal_AntiPoni1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoni1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Bald1_Male</defName>
+		<label>Tribal_Bald1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Bald2_Male</defName>
+		<label>Tribal_Bald2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Bald3_Male</defName>
+		<label>Tribal_Bald3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Bald4_Male</defName>
+		<label>Tribal_Bald4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Bun4_Male</defName>
+		<label>Tribal_Bun4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bun4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Bun3_Male</defName>
+		<label>Tribal_Bun3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bun3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_ShortBun2_Male</defName>
+		<label>Tribal_ShortBun2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBun2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBun2_Male</defName>
+		<label>Tribal_LongBun2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBun2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBun1_Male</defName>
+		<label>Tribal_LongBun1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBun1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_ShortBraid4_Male</defName>
+		<label>Tribal_ShortBraid4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBraid4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_ShortBraid3_Male</defName>
+		<label>Tribal_ShortBraid3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBraid3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_ShortBraid2_Male</defName>
+		<label>Tribal_ShortBraid2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBraid2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_MidBraid2_Male</defName>
+		<label>Tribal_MidBraid2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidBraid2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_MidBraid1_Male</defName>
+		<label>Tribal_MidBraid1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidBraid1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid6_Male</defName>
+		<label>Tribal_LongBraid6_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid6_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid5_Male</defName>
+		<label>Tribal_LongBraid5_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid5_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid4_Male</defName>
+		<label>Tribal_LongBraid4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid3_Male</defName>
+		<label>Tribal_LongBraid3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid2_Male</defName>
+		<label>Tribal_LongBraid2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid1_Male</defName>
+		<label>Tribal_LongBraid1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Wild2_Male</defName>
+		<label>Tribal_Wild2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Wild2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Wild1_Male</defName>
+		<label>Tribal_Wild1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Wild1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Iro2_Male</defName>
+		<label>Tribal_Iro2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Iro2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Iro1_Male</defName>
+		<label>Tribal_Iro1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Iro1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_IroShort2_Male</defName>
+		<label>Tribal_IroShort2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_IroShort2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_IroShort1_Male</defName>
+		<label>Tribal_IroShort1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_IroShort1_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Short5_Male</defName>
+		<label>Tribal_Short5_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Short5_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Short4_Male</defName>
+		<label>Tribal_Short4_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Short4_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Short3_Male</defName>
+		<label>Tribal_Short3_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Short3_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Short2_Male</defName>
+		<label>Tribal_Short2_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Short2_Male</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_Short1_Male</defName>
+		<label>Tribal_Short1_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Short1_Male</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid8_Male</defName>
+		<label>Tribal_LongBraid8_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid8_Male</texPath>
+		</HairDef>
+		
+				<HairDef ParentName="OrcishHairstyles">
+		<defName>Tribal_LongBraid7_Male</defName>
+		<label>Tribal_LongBraid7_Male</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_LongBraid7_Male</texPath>
+		</HairDef>
+		
+
+		
+		
+
+	 <!--=============================== Hair Behemoth ================================-->
+
+
+<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Spikes6_Behemoth</defName>
+		<label>Tribal_Spikes6_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes6_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Spikes5_Behemoth</defName>
+		<label>Tribal_Spikes5_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes5_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Spikes4_Behemoth</defName>
+		<label>Tribal_Spikes4_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes4_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Spikes3_Behemoth</defName>
+		<label>Tribal_Spikes3_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Spikes3_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_SmallPoniSpiky4_Behemoth</defName>
+		<label>Tribal_SmallPoniSpiky4_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_SmallPoniSpiky4_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_AntiPoni4_Behemoth</defName>
+		<label>Tribal_AntiPoni4_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_AntiPoni4_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Bald1_Behemoth</defName>
+		<label>Tribal_Bald1_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald1_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Bald2_Behemoth</defName>
+		<label>Tribal_Bald2_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald2_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Bald3_Behemoth</defName>
+		<label>Tribal_Bald3_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald3_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Bald4_Behemoth</defName>
+		<label>Tribal_Bald4_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald4_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Bald5_Behemoth</defName>
+		<label>Tribal_Bald5_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald5_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_Bald6_Behemoth</defName>
+		<label>Tribal_Bald6_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_Bald6_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_ShortBun1_Behemoth</defName>
+		<label>Tribal_ShortBun1_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBun1_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_ShortBraid4_Behemoth</defName>
+		<label>Tribal_ShortBraid4_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBraid4_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_ShortBraid3_Behemoth</defName>
+		<label>Tribal_ShortBraid3_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBraid3_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_ShortBraid2_Behemoth</defName>
+		<label>Tribal_ShortBraid2_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_ShortBraid2_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_MidBraid2_Behemoth</defName>
+		<label>Tribal_MidBraid2_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidBraid2_Behemoth</texPath>
+		</HairDef>
+		
+		<HairDef ParentName="OrcishBehemothHairstyles">
+		<defName>Tribal_MidBraid1_Behemoth</defName>
+		<label>Tribal_MidBraid1_Behemoth</label>
+		<styleGender>Male</styleGender>
+		<texPath>Things/Pawn/Humanlike/Hairs/Tribal_MidBraid1_Behemoth</texPath>
+		</HairDef>
+		
+		
+
+
+
+
+	
+	
+</Defs>

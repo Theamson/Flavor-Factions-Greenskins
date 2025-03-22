@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <XenotypeDef>
+    <defName>GreenskinBehemoth</defName>
+    <label>Greenskin Behemoth</label>  
+	<description>Greenskin Behemoths are towering giants among their kin, known for their colossal size, unmatched strength, and formidable presence. With their characteristic green skin, imposing tusks, and thick, dark hair, they embody the epitome of Greenskin physicality. Their sheer power and dominance command respect and fear among their tribe, often placing them at the forefront of battles and in positions of authority. As leaders, they enforce their will through sheer force and are revered as symbols of strength and resilience within Greenskin society.</description>
+	<descriptionShort>Greenskin Behemoths are the largest and strongest members of their kind, revered for their sheer size and dominance.</descriptionShort>
+	<iconPath>UI/Icons/Xenotypes/XenotypeIcon_OrcBehemoth</iconPath>
+    <inheritable>true</inheritable>
+	<nameMaker>NamerPersonOrc</nameMaker>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+			<li>BS_Diet_Carnivore</li>
+			<li>Cannibal</li>
+			<li>HalfJotunFrame</li>	
+			<li>PsychicAbility_Deaf</li>
+			<li>BS_Very_Slow</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>BS_Unarmed_Strong</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>VerySleepy</li>
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>Body_MaleOnly</li>
+			<li>VU_Libido_Succubus</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Fat</li>
+			<li>Hair_InkBlack</li>
+			<li>RobustDigestion</li>
+			<li>Learning_Slow</li>
+			<li>Nearsighted</li>
+			<li>Hair_Grayless</li>
+			<li>Unstoppable</li>
+			<li>BS_SimpleMind</li>
+			<li>OrcBehemothHairGene</li>
+			<li>Orc_Tusks</li>
+			<li>OrcBehemoth_MalePlusTattoo1</li>
+			<li>OrcBehemoth_MalePlusTattoo2</li>
+			<li>OrcBehemothHead</li>
+			<li>GreenSkin1</li>
+			<li>GreenSkin2</li>
+			<li>GreenSkin3</li>
+			<li>GreenSkin4</li>
+			<li>GreenSkin5</li>
+			<li>GreenSkin6</li>
+			<li>GreenSkin7</li>
+    </genes>
+	<factionlessGenerationWeight>0</factionlessGenerationWeight>
+  </XenotypeDef>
+  
+   <XenotypeDef>
+    <defName>GreenskinAverage</defName>
+    <label>Greenskin</label>
+    <description>Greenskins are robust beings characterized by their rugged appearance—green skin, prominent tusks, and coarse black hair. They are carnivores, their diet often supplemented with raw meat, including that of their fallen adversaries. Physically imposing, they boast sturdy frames and weathered skin, marked by heavy brows and pointed ears. In battle, they adorn themselves with the blood of their foes as war paint, a terrifying spectacle that embodies their brutal nature and prowess in combat.</description>
+	<descriptionShort>Greenskins are formidable creatures with green skin, big tusks, and black hair. They are carnivorous and known for their immense strength and durability. Often seen with blood of their enemies as war paint, they strike fear in battle.</descriptionShort>
+	<iconPath>UI/Icons/Xenotypes/XenotypeIcon_Orc</iconPath>
+    <inheritable>true</inheritable>
+	<nameMaker>NamerPersonOrc</nameMaker>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+			<li>BS_Diet_Carnivore</li>
+			<li>Cannibal</li>
+			<li>BS_LargeFrame</li>
+			<li>PsychicAbility_Deaf</li>
+			<li>MoveSpeed_Slow</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>BS_Unarmed_Strong</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Sleepy</li>
+			<li>Pain_Reduced</li>
+			<li>VU_Libido_Succubus</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Standard</li>
+			<li>Hair_InkBlack</li>
+			<li>RobustDigestion</li>
+			<li>Learning_Slow</li>
+			<li>Nearsighted</li>
+			<li>Hair_Grayless</li>
+			<li>Orc_Average1</li>
+			<li>Orc_Average2</li>
+			<li>Orc_Average3</li>
+			<li>Orc_Average4</li>
+			<li>Orc_Average5</li>
+			<li>Orc_Average6</li>
+			<li>Orc_Brows</li>
+			<li>Orc_Average7</li>
+			<li>Orc_Ears</li>
+			<li>Orc_Average8</li>
+			<li>Orc_Tusks</li>
+			<li>Orc_Average9</li>
+			<li>OrcHairGene</li>
+			<li>Orc_Average10</li>
+			<li>Orc_Average11</li>
+			<li>OrcHead</li>
+			<li>GreenSkin1</li>
+			<li>GreenSkin2</li>
+			<li>GreenSkin3</li>
+			<li>GreenSkin4</li>
+			<li>GreenSkin5</li>
+			<li>GreenSkin6</li>
+			<li>GreenSkin7</li>
+    </genes>
+	<factionlessGenerationWeight>0</factionlessGenerationWeight>
+  </XenotypeDef>
+  
+     <XenotypeDef>
+    <defName>HulkingGreenskin</defName>
+    <label>Hulking Greenskin</label>  
+	<description>Hulking Greenskins are an elite breed among their kind, distinguished by their towering stature and even greater physical strength compared to standard Greenskins. They possess the same distinctive features—green skin, massive tusks, and dark hair—but stand out due to their formidable presence and commanding demeanor. Revered for their prowess in battle and leadership qualities, they often hold high-ranking positions within their tribes, where their strength and dominance set them apart as natural leaders and formidable warriors.</description>
+	<descriptionShort>Hulking Greenskins are stronger variants of regular Greenskins, often in positions of leadership due to their immense power and dominance.</descriptionShort>
+	<iconPath>UI/Icons/Xenotypes/XenotypeIcon_OrcHulk</iconPath>
+    <inheritable>true</inheritable>
+	<nameMaker>NamerPersonOrc</nameMaker>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+			<li>BS_Diet_Carnivore</li>
+			<li>Cannibal</li>
+			<li>BS_LargeFrame</li>
+			<li>PsychicAbility_Deaf</li>
+			<li>MoveSpeed_Slow</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>BS_Unarmed_Strong</li>
+			<li>BS_Bloodlust</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Sleepy</li>
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>Body_MaleOnly</li>
+			<li>VU_Libido_Succubus</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Hulk</li>
+			<li>Hair_InkBlack</li>
+			<li>RobustDigestion</li>
+			<li>Learning_Slow</li>
+			<li>Nearsighted</li>
+			<li>Hair_Grayless</li>
+			<li>Orc_Brows</li>
+			<li>Orc_Ears</li>
+			<li>Orc_Tusks</li>
+			<li>OrcHairGene</li>
+			<li>Orc_MaleHulk1</li>
+			<li>Orc_MaleHulk2</li>
+			<li>Orc_MaleHulk3</li>
+			<li>Orc_MaleHulk4</li>
+			<li>Orc_MaleHulk5</li>
+			<li>Orc_MaleHulk6</li>
+			<li>Orc_MaleHulk7</li>
+			<li>Orc_MaleHulk8</li>
+			<li>Orc_MaleHulk9</li>
+			<li>Orc_MaleHulk10</li>
+			<li>Orc_MaleHulk11</li>
+			<li>OrcHead</li>
+			<li>GreenSkin1</li>
+			<li>GreenSkin2</li>
+			<li>GreenSkin3</li>
+			<li>GreenSkin4</li>
+			<li>GreenSkin5</li>
+			<li>GreenSkin6</li>
+			<li>GreenSkin7</li>
+    </genes>
+	<factionlessGenerationWeight>0</factionlessGenerationWeight>
+  </XenotypeDef>
+
+</Defs>

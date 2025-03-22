@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <KCSG.SettlementLayoutDef Abstract="True" Name="Greenskin_Base">
+    
+    <avoidBridgeable>true</avoidBridgeable>
+    <avoidMountains>true</avoidMountains>
+    <centerBuildings>
+      
+      <spaceAround>1</spaceAround>
+      <allowedStructures>
+	  
+        <li>
+		
+          <count>0~1</count>
+          <tag>GreenskinMassive</tag>
+		  </li>
+        <li>
+		
+		  <count>0~1</count>
+          <tag>GreenskinMedicalMedium</tag>
+		  </li>
+        <li>
+		
+		  <count>0~1</count>
+          <tag>GreenskinShamanMedium</tag>
+		  </li>
+        <li>
+		
+		  <count>0~4</count>
+          <tag>GreenskinProductionMedium</tag>
+		  </li>
+        <li>
+		
+		  <count>1~2</count>
+          <tag>GreenskinFoodMedium</tag>
+		  </li>
+        <li>
+		
+		  <count>0~3</count>
+          <tag>GreenskinHousingMedium</tag>
+		  </li>
+        <li>
+		
+		  <count>5~12</count>
+          <tag>GreenskinHousing</tag>
+		  </li>
+        <li>
+		
+		  <count>0~3</count>
+          <tag>GreenskinMiscLeather</tag>
+		  </li>
+        <li>
+		
+		  <count>1~2</count>
+          <tag>GreenskinMiscFireplace</tag>
+		  </li>
+        <li>
+		
+		  <count>1~2</count>
+          <tag>GreenskinMiscResource</tag>
+		</li>
+
+       
+      </allowedStructures>
+    </centerBuildings>
+    <peripheralBuildings>
+      <allowedStructures>
+
+		        <li>
+          <count>0~4</count>
+          <tag>GreenskinHousing</tag>
+        </li>
+		
+		<li>
+          <count>1~1</count>
+          <tag>GreenskinMiscFireplace</tag>
+        </li>
+		
+		<li>
+          <count>0~1</count>
+          <tag>GreenskinMiscLeather</tag>
+        </li>
+      </allowedStructures>
+    </peripheralBuildings>
+    <roadOptions>
+      <addLinkRoad>true</addLinkRoad>
+      <linkRoadDef>PackedDirt</linkRoadDef>
+    </roadOptions>
+    <propsOptions>
+      <scatterProps>true</scatterProps>
+      <scatterMinDistance>4</scatterMinDistance>
+      <scatterMaxAmount>100</scatterMaxAmount>
+      <scatterPropsDefs>
+	  
+<li>RR_DecoBoness</li>
+<li>RR_DecoBonesss</li>
+<li>RR_DecoBonessss</li>
+<li>RR_DecoBonesssss</li>
+<li>RR_DecoBonessssss</li>
+<li>RR_DecoBonesssssss</li>
+<li>RR_DecoBonessssssss</li>
+<li>RR_DecoBonesssssssss</li>
+<li>RR_StoneTorchOne</li>
+<li>RR_StoneTorchTwo</li>
+<li>RR_StoneTorchThree</li>
+<li>RR_StoneTorchFour</li>
+<li>RR_StoneTorchFive</li>
+<li>GibbetCage</li>
+		
+      </scatterPropsDefs>
+    </propsOptions>
+    <stockpileOptions>
+      <stockpileValueMultiplier>2.0</stockpileValueMultiplier>
+    </stockpileOptions>
+  </KCSG.SettlementLayoutDef>
+  
+  
+  <KCSG.SettlementLayoutDef ParentName="Greenskin_Base">
+    <defName>GreenskinSettlementSmall</defName>
+	<settlementSize>62,62</settlementSize>
+    <centerBuildings>
+	<centerSize>52,52</centerSize>
+      <centralBuildingTags>
+        <li>GreenskinMiscFireplace</li>
+<li>GreenskinMiscResource</li>
+<li>GreenskinMiscLeather</li>
+<li>GreenskinMassive</li>
+<li>GreenskinMedicalMedium</li>
+<li>GreenskinShamanMedium</li>
+<li>GreenskinProductionMedium</li>
+<li>GreenskinFoodMedium</li>
+<li>GreenskinHousingMedium</li>
+<li>GreenskinHousing</li>
+
+      </centralBuildingTags>
+	  <allowedStructures>
+		        <li>
+          <count>3~12</count>
+          <tag>GreenskinHousing</tag>
+        </li>
+		
+		<li>
+          <count>1~1</count>
+          <tag>GreenskinMiscFireplace</tag>
+        </li>
+		
+		<li>
+          <count>0~1</count>
+          <tag>GreenskinMiscLeather</tag>
+        </li>
+		
+				        <li>
+          <count>0~1</count>
+          <tag>GreenskinMedicalMedium</tag>
+        </li>
+		
+		<li>
+          <count>0~1</count>
+          <tag>GreenskinShamanMedium</tag>
+        </li>
+		
+		<li>
+          <count>0~2</count>
+          <tag>GreenskinProductionMedium</tag>
+        </li>
+		
+						        <li>
+          <count>0~1</count>
+          <tag>GreenskinMiscResource</tag>
+        </li>
+		
+		<li>
+          <count>0~2</count>
+          <tag>GreenskinHousingMedium</tag>
+        </li>
+		
+		<li>
+          <count>1~2</count>
+          <tag>GreenskinFoodMedium</tag>
+        </li>
+
+       
+      </allowedStructures>
+    </centerBuildings>
+    <stockpileOptions>
+      <fillStorageBuildings>true</fillStorageBuildings>
+      <fillWithDefs>
+        <li>MedicineHerbal</li>
+		<li>Gold</li>
+		<li>Silver</li>
+		<li>Jade</li>
+		<li>Skull</li>
+		<li>Pemmican</li>
+		<li>DankPyon_DriedMeat</li>
+		<li>DankPyon_Hide_Plain</li>
+		<li>DankPyon_Bone</li>
+		<li>DankPyon_Fat</li>
+		<li>Meat_Muffalo</li>
+		<li>Meat_Deer</li>
+		<li>Leather_Patch</li>
+		<li>RawFungus</li>
+		<li>RawBerries</li>
+		<li>DankPyon_DriedMeat_Human</li>
+		<li>Meat_Human</li>
+		<li>Meat_Bison</li>		
+		<li>Kibble</li>
+		<li>Ambrosia</li>	
+		<li>Meat_Elk</li>
+		<li>Meat_Goat</li>	
+		<li>Meat_Ibex</li>
+		<li>Meat_Megasloth</li>	
+		<li>Meat_Muffalo</li>
+		<li>Meat_Sheep</li>	
+		        <li>MedicineHerbal</li>
+
+		<li>Skull</li>
+		<li>Pemmican</li>
+		<li>DankPyon_DriedMeat</li>
+		<li>DankPyon_Hide_Plain</li>
+		<li>DankPyon_Bone</li>
+		<li>DankPyon_Fat</li>
+		<li>Meat_Muffalo</li>
+		<li>Meat_Deer</li>
+		<li>Leather_Patch</li>
+		<li>RawFungus</li>
+		<li>RawBerries</li>
+		<li>DankPyon_DriedMeat_Human</li>
+		<li>Meat_Human</li>
+		<li>Meat_Bison</li>		
+		<li>Kibble</li>
+		<li>Ambrosia</li>	
+		<li>Meat_Elk</li>
+		<li>Meat_Goat</li>	
+		<li>Meat_Ibex</li>
+		<li>Meat_Megasloth</li>	
+		<li>Meat_Muffalo</li>
+		<li>Meat_Sheep</li>	
+      </fillWithDefs>
+    </stockpileOptions>
+  </KCSG.SettlementLayoutDef>
+  
+   <KCSG.SettlementLayoutDef ParentName="Greenskin_Base">
+    <defName>GreenskinSettlementBig</defName>
+	<settlementSize>105,105</settlementSize>
+    <centerBuildings>
+	<centerSize>92,92</centerSize>
+      <centralBuildingTags>
+        <li>GreenskinMiscFireplace</li>
+<li>GreenskinMiscResource</li>
+<li>GreenskinMiscLeather</li>
+<li>GreenskinMassive</li>
+<li>GreenskinMedicalMedium</li>
+<li>GreenskinShamanMedium</li>
+<li>GreenskinProductionMedium</li>
+<li>GreenskinFoodMedium</li>
+<li>GreenskinHousingMedium</li>
+<li>GreenskinHousing</li>
+
+      </centralBuildingTags>
+	  <allowedStructures>
+	  
+	   <li>
+		
+          <count>1~1</count>
+          <tag>GreenskinMassive</tag>
+		  </li>
+		        <li>
+          <count>3~12</count>
+          <tag>GreenskinHousing</tag>
+        </li>
+		
+		<li>
+          <count>1~1</count>
+          <tag>GreenskinMiscFireplace</tag>
+        </li>
+		
+		<li>
+          <count>1~1</count>
+          <tag>GreenskinMiscLeather</tag>
+        </li>
+		
+				        <li>
+          <count>1~1</count>
+          <tag>GreenskinMedicalMedium</tag>
+        </li>
+		
+		<li>
+          <count>1~1</count>
+          <tag>GreenskinShamanMedium</tag>
+        </li>
+		
+		<li>
+          <count>1~2</count>
+          <tag>GreenskinProductionMedium</tag>
+        </li>
+		
+						        <li>
+          <count>1~1</count>
+          <tag>GreenskinMiscResource</tag>
+        </li>
+		
+		<li>
+          <count>1~2</count>
+          <tag>GreenskinHousingMedium</tag>
+        </li>
+		
+		<li>
+          <count>1~2</count>
+          <tag>GreenskinFoodMedium</tag>
+        </li>
+
+       
+      </allowedStructures>
+    </centerBuildings>
+    <stockpileOptions>
+      <fillStorageBuildings>true</fillStorageBuildings>
+      <fillWithDefs>
+        <li>MedicineHerbal</li>
+		<li>Gold</li>
+		<li>Silver</li>
+		<li>Jade</li>
+		<li>Skull</li>
+		<li>Pemmican</li>
+		<li>DankPyon_DriedMeat</li>
+		<li>DankPyon_Hide_Plain</li>
+		<li>DankPyon_Bone</li>
+		<li>DankPyon_Fat</li>
+		<li>Meat_Muffalo</li>
+		<li>Meat_Deer</li>
+		<li>Leather_Patch</li>
+		<li>RawFungus</li>
+		<li>RawBerries</li>
+		<li>DankPyon_DriedMeat_Human</li>
+		<li>Meat_Human</li>
+		<li>Meat_Bison</li>		
+		<li>Kibble</li>
+		<li>Ambrosia</li>	
+		<li>Meat_Elk</li>
+		<li>Meat_Goat</li>	
+		<li>Meat_Ibex</li>
+		<li>Meat_Megasloth</li>	
+		<li>Meat_Muffalo</li>
+		<li>Meat_Sheep</li>	
+		        <li>MedicineHerbal</li>
+
+		<li>Skull</li>
+		<li>Pemmican</li>
+		<li>DankPyon_DriedMeat</li>
+		<li>DankPyon_Hide_Plain</li>
+		<li>DankPyon_Bone</li>
+		<li>DankPyon_Fat</li>
+		<li>Meat_Muffalo</li>
+		<li>Meat_Deer</li>
+		<li>Leather_Patch</li>
+		<li>RawFungus</li>
+		<li>RawBerries</li>
+		<li>DankPyon_DriedMeat_Human</li>
+		<li>Meat_Human</li>
+		<li>Meat_Bison</li>		
+		<li>Kibble</li>
+		<li>Ambrosia</li>	
+		<li>Meat_Elk</li>
+		<li>Meat_Goat</li>	
+		<li>Meat_Ibex</li>
+		<li>Meat_Megasloth</li>	
+		<li>Meat_Muffalo</li>
+		<li>Meat_Sheep</li>	
+
+      </fillWithDefs>
+    </stockpileOptions>
+  </KCSG.SettlementLayoutDef>
+
+
+
+
+</Defs>

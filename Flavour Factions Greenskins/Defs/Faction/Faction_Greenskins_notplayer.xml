@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Tutorial Faction __________-->
+
+    <!-- Non Player Factions -->
+
+  <!-- Note that you dont need to make this a base if not wanted, if you want the FactionBase to be the parent and this def to be you faction change the first line to -   <FactionDef ParentName="FactionBase"> and add in <defName>YourFactionName</defName> under that line -->
+  <FactionDef ParentName="FactionBase" Name="Teamson_Greenskin_factionNonPlayer" Abstract="True"> 
+    <!-- Name of what your pawns inside the faction are called -->
+    <pawnSingular>Clanskin</pawnSingular>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>50</configurationListOrderPriority>
+    <!-- Plural name of pawns within the faction -->
+    <pawnsPlural>Clanskin</pawnsPlural>
+    <!-- The catagory your faction is tagged at -->
+    <categoryTag>Tribal</categoryTag>
+    <!-- List order priority is for the order it appears in faction selection during world gen. -->
+    <listOrderPriority>30</listOrderPriority>
+    <!-- how many towns will pop up at game start -->
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <!-- The amount of factions that will spawn at game start -->
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <!-- Can make randomly is probably for if the faction can be selected for stuff like gathering sites. Which create a temporary faction -->
+    <canMakeRandomly>true</canMakeRandomly>
+    <!-- Can your faction siege colonies? -->
+    <canSiege>false</canSiege>
+    <!-- Can your faction stage attacks on colonies? -->
+    <canStageAttacks>true</canStageAttacks>
+    <!-- Title of factions leader -->
+    <leaderTitle>High Chieftain</leaderTitle>
+    <!-- The Icon that shows your faction on the world map -->
+    <factionIconPath>FactionIcons/greenskinfactionicon</factionIconPath>
+    <!-- Tech level you facton is at -->
+    <techLevel>Medieval</techLevel>
+    <!-- Names your faction can draw from (look at the rulepack namer template for more info) -->
+    <factionNameMaker>NamerFactionGreenskin</factionNameMaker>
+    <!-- Names your settlment can draw from (look at the rulepack namer template for more info) -->
+    <settlementNameMaker>NamerSettlementGreenskin</settlementNameMaker>
+    <!-- Allowed cultures of your faction -->
+    <allowedCultures><li>GreenskinCultureDef</li></allowedCultures>
+    <!-- memes your faction can not use (Ideology) -->
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginHindu</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginBuddhist</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Serketist</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Esotericism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Bacchanalianism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_ChthonianCult</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Eschatologism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Authoritarianism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_CultOfPersonality</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Pantheism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Omnism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Agnosticism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_SecularSpirituality</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Shintaoism</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Corporate</li>
+	  
+	  
+<li MayRequire="VanillaExpanded.VMemesE">VME_ViolentConversion</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_GodEmperor</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_HardcoreIndustrialism</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Gestalt</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Fleshcrafters</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_HolyDiseases</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_CraftCulture</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Progressive</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Aristocratic</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Republic</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_ExaltedPriesthood</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Scrapper</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Trader</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Egalitarian</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Pacifist</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Light</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Nomad</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_CityBuilders</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_MechanoidSupremacy</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_InsectoidSupremacy</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_PartyLife</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Emancipation</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Healthcare</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Elders</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+
+
+
+
+    </disallowedMemes>
+	    <requiredMemes>
+      <li MayRequire="VanillaExpanded.VMemesE">VME_Astrology</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_FireWorship</li>
+	  <li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>	  
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+    </requiredMemes>
+	<!-- Precepts the faction can not use (Ideology) -->
+	    <disallowedPrecepts>
+
+			<!-- Violence -->
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Violence_Abhorrent</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_KillingWithFire_Abhorrent</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Scars_Disgusting</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Extreme</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Heavy</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Minor</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Scarification_Horrible</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Raiding_Abhorrent</li>
+
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Pain_DontCare</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_OrganUse_PostMortem</li>
+<li MayRequire="Ludeon.RimWorld">OrganUse_Classic</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleNoSell</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleSellOK</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
+
+
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Death_Troubling</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_AutonomousWeapons_Accepted</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_AutonomousWeapons_Exalted</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Disapproved</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Execution_HorribleIfInnocent</li>
+
+
+
+
+<li MayRequire="Ludeon.RimWorld">Corpses_Ugly</li>
+
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Disapproved</li>
+
+
+
+			<!-- Ressources, Yield and Labour -->
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_JunkDeconstructionYield_High</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_WoodcuttingYield_High</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_FarmingYield_High</li>
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_DumbLabor_Exalted</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_DumbLabor_Disliked</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_DumbLabor_Horrible</li>
+
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">WorkDrive_Tripled</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_CraftingQuality_Increased</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_AutomationEfficiency_Increased</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_AutomationEfficiency_Decreased</li>
+
+<li MayRequire="Ludeon.RimWorld.Biotech">MechanoidLabor_Enhanced</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Ranching_Disliked</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Ranching_Central</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Mining_Prohibited</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Mining_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Mining_Disapproved</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">MiningYield_High</li>
+
+<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Essential</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Prohibited</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Biotech">ChildLabor_Disapproved</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">KillingInnocentAnimals_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">KillingInnocentAnimals_Horrible</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Bonding_Disapproved</li>							<!-- With Animals -->
+
+<li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Prohibited</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Disapproved</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Trees_Desired</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Research_None</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Research_Fast</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Research_VeryFast</li>
+
+
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">AnimalConnection_Strong</li>
+
+
+
+			<!-- Drugs & Food -->
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_MeatEating_Abhorrent_Strict</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_InsectMeatEating_Sacrilegious</li>
+
+<li MayRequire="Ludeon.RimWorld">InsectMeatEating_Despised_Classic</li>
+
+
+
+
+
+
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
+
+<li MayRequire="Ludeon.RimWorld">NutrientPasteEating_Disgusting</li>
+
+
+<li MayRequire="Ludeon.RimWorld">Cannibalism_Classic</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Prohibited</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Disapproved</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Essential</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- Apparel -->
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+
+				<!-- Means atleast put on some pants, dont care for the rest -->
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinOrChestDisapproved</li>			<!-- Means atleast put on some pants and shirt, dont care for the rest -->
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinOrChestDisapproved</li>		<!-- Means atleast put on some pants and shirt, dont care for the rest -->
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestOrHairDisapproved</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestOrHairDisapproved</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_TaintedApparel_Disapproved</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_TaintedApparel_Abhorrent</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_TatteredApparel_Disapproved</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_TatteredApparel_Abhorrent</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_LeatherApparel_Abhorrent</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_LeatherApparel_Disliked</li>
+
+			<!-- Social -->
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_SocialInteractions_Disallowed</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_SlaveTrading_OnlyBuying</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Slavery_Forbidden</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Proselytizing_Forceful</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Occasionally</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Sometimes</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizing_Frequently</li>
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Leader_Godlike</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Leader_BestCrafter</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Leader_Three</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Leader_Moralist</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Elders_Despised</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Elders_Holy</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Mood_Shared</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Mood_LowExpectations</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Mood_Normal</li>
+
+<li MayRequire="Ludeon.RimWorld">SpouseCount_Male_MaxOne</li>
+<li MayRequire="Ludeon.RimWorld">SpouseCount_Female_MaxOne</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_MaxTwo</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Female_MaxTwo</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Male_MaxThree</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">SpouseCount_Female_MaxThree</li>
+
+
+
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Standard</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Respected</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Exalted</li>
+
+<li MayRequire="Ludeon.RimWorld">MarriageName_UsuallyMans</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysMans</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_KeepNames</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_UsuallyWomans</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysWomans</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Strict</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Junk_Beautiful</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Junk_Preferred</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Expectations_High</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Expectations_Low</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Corruption_Essential</li>
+
+<li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanizing_Required</li>
+
+<li MayRequire="Ludeon.RimWorld.Anomaly">PsychicRituals_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Anomaly">PsychicRituals_Disapproved</li>
+<li MayRequire="Ludeon.RimWorld.Anomaly">PsychicRituals_Exalted</li>
+
+<li MayRequire="Ludeon.RimWorld.Anomaly">VoidStudy_VeryInefficient</li>
+<li MayRequire="Ludeon.RimWorld.Anomaly">VoidStudy_Inefficient</li>
+<li MayRequire="Ludeon.RimWorld.Anomaly">VoidStudy_Efficient</li>
+<li MayRequire="Ludeon.RimWorld.Anomaly">VoidStudy_VeryEfficient</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Apostasy_Accepted</li>
+<li MayRequire="VanillaExpanded.VMemesE">Apostasy_Despicable</li>   <!-- (((!!This is from VME, yet no VME Prefix!!))) -->
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity_Required</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Essential</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Important</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Charity_Worthwhile</li>
+
+			<!-- Health -->
+			
+<li MayRequire="VanillaExpanded.VMemesE">VME_Immunity_Enhanced</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_TendQuality_Increased</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Illness_Exalted</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Illness_Preferred</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Illness_Indifferent</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Hospital_Required</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_BodyMod_OnlyBiological</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Alcohol_Demanded</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Alcohol_Desired</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Alcohol_MildAbstinence</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Blind_Psysense</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Blindness_Respected</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Blindness_Elevated</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Blindness_Sublime</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Blinding_Horrible</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator_Preferred</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">NeuralSupercharge_Preferred</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">Biosculpting_Accelerated</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">BioSculpter_Despised</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">AgeReversal_Demanded</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Abhorrent</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Disapproved</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Approved</li>
+
+
+			<!-- World, Travel, Trading -->
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Travel_Desired</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Travel_Despised</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_TradingPrice_Improved</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Trading_Required</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_PermanentBases_Despised</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_PermanentBases_Desired</li>
+
+
+
+
+
+
+
+			<!-- PawnTypes -->
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Mechanoids_Exalted</li>
+<li MayRequire="VanillaExpanded.VMemesE">VME_Mechanoids_Despised</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Insectoids_Exalted</li>
+
+
+<li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeders_Revered</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeders_Reviled</li>
+
+			<!-- Misc -->
+			
+<li MayRequire="VanillaExpanded.VMemesE">VME_Darklight_NormalPreferred</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">Darklight_Preferred</li>
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_DarknessCombat_Despised</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">DarknessCombat_Preferred</li>
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Eclipse_Despised</li>
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Aurora_Despised</li>
+
+
+
+
+
+<li MayRequire="VanillaExpanded.VMemesE">VME_Fire_Despised</li>
+
+
+
+
+    </disallowedPrecepts>
+    <!-- The commonality of the listed origin your faction will pull from, the higher weight the greater chance that origin will be chosen -->
+    <structureMemeWeights>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+         </structureMemeWeights>
+    <!-- What backstory catagories your faction will pull from -->
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>GreenskinBackStory</li>
+        </categories>
+        <!-- How common it is to see this backstory within your faction -->
+        <commonality>100</commonality>
+      </li>
+    </backstoryFilters>
+    <!-- Types of caravans your faction will have -->
+    <caravanTraderKinds>
+      <!-- <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li> -->
+    </caravanTraderKinds>
+    <!-- Kinds of visitors your faction will have -->
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <!-- Temperature range at wich kind caravans will arrive -->
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, standard mix -->
+        <!-- KindDef to determin how the pawn group is used, ie combat, settlement, trade etc -->
+        <kindDef>Combat</kindDef>
+        <options>
+          <!-- Name of pawnkinds within the group (look at pawnkind template for more information) -->
+          <Teamson_Greenskin_Thrall>4</Teamson_Greenskin_Thrall>
+		  <Teamson_Greenskin_ThrallShield>4</Teamson_Greenskin_ThrallShield>
+		  <Teamson_Greenskin_Youngling>4</Teamson_Greenskin_Youngling>
+          <Teamson_Greenskin_Warrior>5</Teamson_Greenskin_Warrior>
+		            <Teamson_Greenskin_WarriorShield>5</Teamson_Greenskin_WarriorShield>
+          <Teamson_Greenskin_Raider>2</Teamson_Greenskin_Raider>
+		  <Teamson_Greenskin_RaiderShield>3</Teamson_Greenskin_RaiderShield>
+          <Teamson_Greenskin_Marauder>3</Teamson_Greenskin_Marauder>
+		    <Teamson_Greenskin_MarauderShield>3</Teamson_Greenskin_MarauderShield>
+          <Teamson_Greenskin_Brute>2</Teamson_Greenskin_Brute>
+          <Teamson_Greenskin_Chosen>2</Teamson_Greenskin_Chosen>
+		            <Teamson_Greenskin_ChosenShield>2</Teamson_Greenskin_ChosenShield>
+          <Teamson_Greenskin_Champion>1</Teamson_Greenskin_Champion>
+		            <Teamson_Greenskin_ChampionShield>1</Teamson_Greenskin_ChampionShield>
+          <Teamson_Greenskin_Berserker>1</Teamson_Greenskin_Berserker>
+		  <Teamson_Greenskin_Warlord>1</Teamson_Greenskin_Warlord>
+		  <Teamson_Greenskin_BannerBearer>1</Teamson_Greenskin_BannerBearer>
+        </options>
+      </li>
+      <!-- <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Villager>20</Villager>
+          <Town_Guard>10</Town_Guard>
+          <Town_Councilman>10</Town_Councilman>
+        </options>
+      </li> -->
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <Teamson_Greenskin_Thrall>3</Teamson_Greenskin_Thrall>
+          <!-- <Town_Guard>10</Town_Guard>
+          <Grenadier_Destructive>1.5</Grenadier_Destructive>
+          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <Mercenary_Gunner>10</Mercenary_Gunner>
+          <Mercenary_Elite>10</Mercenary_Elite> -->
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Teamson_Greenskin_Thrall>2</Teamson_Greenskin_Thrall>
+		  <Teamson_Greenskin_ThrallShield>2</Teamson_Greenskin_ThrallShield>
+		  <Teamson_Greenskin_Youngling>2</Teamson_Greenskin_Youngling>
+          <Teamson_Greenskin_Warrior>5</Teamson_Greenskin_Warrior>
+		            <Teamson_Greenskin_WarriorShield>5</Teamson_Greenskin_WarriorShield>
+          <Teamson_Greenskin_Raider>2</Teamson_Greenskin_Raider>
+		  <Teamson_Greenskin_RaiderShield>3</Teamson_Greenskin_RaiderShield>
+          <Teamson_Greenskin_Marauder>3</Teamson_Greenskin_Marauder>
+		    <Teamson_Greenskin_MarauderShield>3</Teamson_Greenskin_MarauderShield>
+          <Teamson_Greenskin_Brute>2</Teamson_Greenskin_Brute>
+          <Teamson_Greenskin_Chosen>2</Teamson_Greenskin_Chosen>
+		            <Teamson_Greenskin_ChosenShield>2</Teamson_Greenskin_ChosenShield>
+          <Teamson_Greenskin_Champion>1</Teamson_Greenskin_Champion>
+		            <Teamson_Greenskin_ChampionShield>1</Teamson_Greenskin_ChampionShield>
+          <Teamson_Greenskin_Berserker>1</Teamson_Greenskin_Berserker>
+		  <Teamson_Greenskin_Warlord>1</Teamson_Greenskin_Warlord>
+		  <Teamson_Greenskin_BannerBearer>1</Teamson_Greenskin_BannerBearer>
+
+        </options>
+      </li>
+
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Hunter>1</Hunter>
+        </options>
+      </li>
+
+    </pawnGroupMakers>
+    <!-- Texture path for settlements on world map -->
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <FactionDef ParentName="Teamson_Greenskin_factionNonPlayer"> 
+        <defName>Teamson_Greenskin_NonPlayerBarbTribe</defName>
+        <naturalEnemy>true</naturalEnemy>
+        <label>Greenskin Clans</label>
+        <description>Looters and pillagers, driven by instincts and rage. Greenskin are frequently encountered encroaching nearby settlement with the intend to plunder, burn and kill.</description>
+        <colorSpectrum>
+            <li>(204, 75, 75)</li>
+        </colorSpectrum>
+		
+		
+		<modExtensions>
+  <li Class="KCSG.CustomGenOption">
+  <chooseFromSettlements>
+  <li>GreenskinSettlementBig</li>
+  <li>GreenskinSettlementSmall</li>
+
+</chooseFromSettlements>
+    <!-- The following option will prevent lake/marsh and
+         patches in general to generate. Use this if you 
+         don't want your settlement to have to use bridges -->
+    <preventBridgeable>true</preventBridgeable>
+    <!-- If you want the structure to not be generated in the center,
+         but in a free of mountain space (will default to center if
+         no such space exist)-->
+
+    <!-- Premade resolver, you can add or remove any of them, and 
+         also add custom ones -->
+    <symbolResolvers>
+      <li>kcsg_randomfilth</li>
+	  
+      </symbolResolvers>
+    <!-- Only if tou use kcsg_randomfilth -->
+    <filthTypes>
+      <li>Filth_Dirt</li>
+	  <li>Filth_Blood</li>
+	 <li> Filth_AnimalFilth</li>
+	 <li>Filth_RubbleRock</li>
+	 <li>Filth_Trash</li>
+      <li>Filth_RubbleBuilding</li>
+	        <li>Filth_Dirt</li>
+
+	 <li> Filth_AnimalFilth</li>
+	 <li>Filth_RubbleRock</li>
+	 <li>Filth_Trash</li>
+      <li>Filth_RubbleBuilding</li>
+	        <li>Filth_Dirt</li>
+
+	 <li> Filth_AnimalFilth</li>
+	 <li>Filth_RubbleRock</li>
+	 <li>Filth_Trash</li>
+      <li>Filth_RubbleBuilding</li>
+    </filthTypes>
+   
+  </li>
+</modExtensions>
+
+
+  </FactionDef> 
+
+</Defs>

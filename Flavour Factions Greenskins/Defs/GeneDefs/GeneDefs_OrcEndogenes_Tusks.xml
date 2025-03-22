@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Tusks (Some are doubled, to mess with the chances -->
+	
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>Orc_Tusks</defName>
+		<label>Greenskin Tusks</label>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of these gene grow two tusks out of their mouth.</description>
+		<iconPath>UI/Icons/Genes/Gene_OrcTusks</iconPath>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<selectionWeight>0</selectionWeight>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<color>(255, 255, 255)</color>
+				<useRottenColor>false</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<useSkinShader>false</useSkinShader>
+        <texPaths>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks4_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks5_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks7_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks7_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks7_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks7_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks9_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks10_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks11_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks13_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks14_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks15_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks16_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks17_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks18_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks19_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks20_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks21_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks22_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks23_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks24_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks25_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks26_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks27_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks28_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks29_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcTusks/Orc_Tusks30_Male</li>
+
+
+		
+		</texPaths>
+        <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+				<drawData>
+					<defaultData>
+						<layer>62</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>10</layer>
+					</dataNorth>
+					<dataEast>
+						<offset>(0,0,0)</offset>
+					</dataEast>
+					<dataSouth>
+						<offset>(0,0,0)</offset>
+					</dataSouth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li><symbol>horn</symbol></li>
+				<li><symbol>spike</symbol></li>
+				<li><symbol>bone</symbol></li>
+				<li><symbol>hell</symbol></li>
+				<li><symbol>long</symbol></li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li><symbol>horn</symbol></li>
+				<li><symbol>spike</symbol></li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+ 
+  
+</Defs>

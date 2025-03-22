@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <RulePackDef>
+    <defName>NamerDeityTypeGreenskin</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->God of [DeityTypeG]</li>
+
+        <li>DeityTypeG->[GreenskinDeityTypes]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>GreenskinDeityTypes->Names/Type_GreenskinDeity</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+ 
+
+</Defs>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ===== Leather Boots ===== -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Teamson_Footwear_BootsLeather</defName>
+		<label>patchworkboots</label>
+		<description>Provides minimal protection. Wearing leather boots will increase movement speed.</description>
+		<graphicData>
+			<texPath>Apparel/GreenskinShoes/TribalBootsLeather</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.1</generateCommonality>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<statBases>
+			<MaxHitPoints>115</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.25</Mass>
+			<StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>DankPyon_Footwear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+		<li>Teamson_Greenskins_T0_Cloth</li>
+        <li>Teamson_Greenskins_T1_Cloth</li>
+        <li>Teamson_Greenskins_T2_Cloth</li>
+		<li>Teamson_Greenskins_T3_Cloth</li>
+        <li>Teamson_Greenskins_T4_Cloth</li>
+			</tags>
+
+		</apparel>
+
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+
+	
+
+</Defs>

@@ -1,0 +1,1083 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Worker -->
+
+  <BackstoryDef>
+    <defName>Greenskin_Hunter74</defName>
+    <title>hunter</title>
+    <titleShort>hunter</titleShort>
+    <description>[PAWN_nameDef] tracked, trapped, and killed animals for their meat and leather. [PAWN_nameDef] used both ranged and melee weapons and sometimes hunted alongside wild animals, embodying the savage spirit of the greenskins.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
+      <Animals>2</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_Logger16</defName>
+    <title>logger</title>
+    <titleShort>logger</titleShort>
+    <description>[PAWN_nameDef] chopped trees and hauled lumber back to the clan. Wielding [PAWN_possessive] axe with both artistry and brute force, [PAWN_pronoun] exemplified the rugged determination of the greenskin people.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Plants>6</Plants>
+      <Melee>3</Melee>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <possessions>
+      <WoodLog>10</WoodLog>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_Gatherer70</defName>
+    <title>gatherer</title>
+    <titleShort>gatherer</titleShort>
+    <description>With an innate knowledge of plants, roots, and berries, [PAWN_nameDef] could forage even in the harshest lands. [PAWN_pronoun] shunned the hunt, relying instead on nature’s bounty—a trait prized among the greenskins.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Plants>8</Plants>
+      <Animals>-2</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Weaver63</defName>
+    <title>weaver</title>
+    <titleShort>weaver</titleShort>
+    <description>[PAWN_nameDef] mastered the craft of working wool, plant fibers, and natural dyes into distinctive garments that bore the mark of greenskin culture. [PAWN_pronoun]'s textiles were both practical and a point of pride.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Crafting>6</Crafting>
+      <Plants>2</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <possessions>
+      <Cloth>10</Cloth>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_Framer37</defName>
+    <title>framer</title>
+    <titleShort>framer</titleShort>
+    <description>[PAWN_nameDef] built shelters and settlements for the clan—from temporary encampments to permanent dwellings—using materials gathered from the wild.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Construction>6</Construction>
+      <Plants>2</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_StewKeeper95</defName>
+    <title>stew keeper</title>
+    <titleShort>stewkeeper</titleShort>
+    <description>[PAWN_nameDef] prepared hearty meals from the tribe’s gathered bounty. [PAWN_pronoun] ensured every dish was calorie-dense and long-lasting—a vital skill for survival in the greenskin wilds. Sometimes, [PAWN_pronoun] even foraged the herbs [PAWN_objective]self.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Cooking>6</Cooking>
+      <Plants>2</Plants>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Cooking</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_Tamer79</defName>
+    <title>tamer</title>
+    <titleShort>tamer</titleShort>
+    <description>[PAWN_nameDef] forged a deep bond with the wild beasts roaming the lands. [PAWN_pronoun] tamed and cared for these animals, embodying the fierce yet respectful nature of the greenskin tradition.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Animals>6</Animals>
+      <Social>2</Social>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_Carver1</defName>
+    <title>carver</title>
+    <titleShort>carver</titleShort>
+    <description>[PAWN_nameDef] carved intricate artworks from wood, stone, and other natural materials. [PAWN_pronoun]'s creations beautified clan settlements and enriched greenskin rituals.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Artistic>7</Artistic>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
+
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_Healer46</defName>
+    <title>healer</title>
+    <titleShort>healer</titleShort>
+    <description>When the clan’s elder healer fell in battle, [PAWN_nameDef] stepped forward to care for the wounded. Scavenging herbs and natural remedies from the wild, [PAWN_pronoun] preserved the health of the greenskin people.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Medicine>5</Medicine>
+      <Plants>3</Plants>
+    </skillGains>
+		    <forcedTraits>
+      <DrugDesire>1</DrugDesire>
+    </forcedTraits>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <possessions>
+      <MedicineHerbal>5</MedicineHerbal>
+    </possessions>
+  </BackstoryDef>
+  
+  
+  
+
+  <BackstoryDef>
+    <defName>Greenskin_HearthTender66</defName>
+    <title>hearth tender</title>
+    <titleShort>tender</titleShort>
+    <description>While the clan ventured out to hunt and forage, [PAWN_nameDef] stayed behind to cook and care for the young and infirm, keeping the home hearth burning strong in true greenskin fashion.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Cooking>4</Cooking>
+      <Medicine>3</Medicine>
+      <Crafting>2</Crafting>
+	  
+    </skillGains>
+
+  </BackstoryDef>
+
+  <!-- Warrior -->
+
+  <BackstoryDef>
+    <defName>Greenskin_Warrior94</defName>
+    <title>warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] was a fearsome combatant, mastering both melee and ranged warfare in countless battles—a true embodiment of greenskin savagery.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Melee>4</Melee>
+      <Shooting>4</Shooting>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+
+  </BackstoryDef>
+
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Scout59</defName>
+    <title>scout</title>
+    <titleShort>scout</titleShort>
+    <description>Contact with outlanders taught [PAWN_nameDef] to navigate the wild lands. [PAWN_pronoun] learned to resources—skills honed on the frontier of greenskin territory.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Intellectual>2</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_VengefulHunter32</defName>
+    <title>vengeful hunter</title>
+    <titleShort>vengeful</titleShort>
+    <description>After losing a dear friend to a vicious animal attack, [PAWN_nameDef] tracked down the beast and sought retribution. [PAWN_pronoun] faced not only nature’s fury but also betrayal by those who wore the beast’s pelt as a trophy.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>6</Melee>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+
+  </BackstoryDef>
+
+  <!-- Spiritual / Cultural -->
+
+  <BackstoryDef>
+    <defName>Greenskin_MuffaloShaman95</defName>
+    <title>muffalo shaman</title>
+    <titleShort>shaman</titleShort>
+    <description>Endowed with quiet wisdom and raw strength, [PAWN_nameDef] became the spiritual guide of the clan by forging a deep connection with the great spirit.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+		    <forcedTraits>
+      <DrugDesire>2</DrugDesire>
+    </forcedTraits>
+
+    <skillGains>
+
+      <Social>2</Social>
+    </skillGains>
+  </BackstoryDef>
+
+
+
+  <!-- Other -->
+
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Banished68</defName>
+    <title>banished</title>
+    <titleShort>banished</titleShort>
+    <description>[PAWN_nameDef] was cast out from [PAWN_possessive] clan after a bitter, bloody dispute. Forced to survive on [PAWN_possessive] own, [PAWN_pronoun] learned to endure the hardships of exile in the wild greenskin lands.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Melee>3</Melee>
+      <Shooting>2</Shooting>
+      <Plants>4</Plants>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </BackstoryDef>
+
+<BackstoryDef>
+  <defName>Greenskin_BanishedSick</defName>
+  <title>banished sick</title>
+  <titleShort>exiled sick</titleShort>
+  <description>[PAWN_nameDef] was cast out when [PAWN_pronoun] fell gravely ill — a fate for the sick in greenskin society, exiled to die alone. Against all odds, [PAWN_pronoun] survived the harsh isolation and eventually reclaimed [PAWN_possessive] rightful place in the clan.</description>
+  <slot>Adulthood</slot>
+  <spawnCategories>
+    <li>GreenskinBackStory</li>
+  </spawnCategories>
+
+  <skillGains>
+    <Medicine>3</Medicine>
+    <Social>-2</Social>
+  </skillGains>
+</BackstoryDef>
+
+
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Butcher40</defName>
+    <title>butcher</title>
+    <titleShort>butcher</titleShort>
+    <description>[PAWN_nameDef] became an expert in processing animal carcasses, ensuring every part was used. Swift and precise with a blade, [PAWN_pronoun] exemplified the brutal efficiency of greenskin warfare.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+
+    <skillGains>
+      <Cooking>6</Cooking>
+      <Animals>3</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <possessions>
+      <Meat_Bison>5</Meat_Bison>
+    </possessions>
+  </BackstoryDef>
+
+<BackstoryDef>
+  <defName>Greenskin_EscapedSlave</defName>
+  <title>Escaped Slave</title>
+  <titleShort>escaped</titleShort>
+  <description>[PAWN_nameDef] was captured by humans and forced to labor in the mining pits. In a brutal uprising, [PAWN_pronoun] fought to break free from the chains of slavery and defied the odds to reclaim [PAWN_possessive] rightful place among the Greenskins.</description>
+  <slot>Adulthood</slot>
+  <spawnCategories>
+    <li>GreenskinBackStory</li>
+  </spawnCategories>
+
+  <skillGains>
+    <Melee>2</Melee>
+    <Mining>3</Mining>
+    <Social>-2</Social>
+  </skillGains>
+</BackstoryDef>
+
+
+
+  <!-- Testme  -->
+  
+  <BackstoryDef>
+    <defName>Greenskin_HonoredWarrior</defName>
+    <title>Honored Warrior</title>
+    <titleShort>honored</titleShort>
+    <description>[PAWN_nameDef] fought valiantly on the battlefield, earning honor and a reputation for deadly melee prowess.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>5</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_StarReader</defName>
+    <title>Star Reader</title>
+    <titleShort>star reader</titleShort>
+    <description>[PAWN_nameDef] spent long nights studying the skies, interpreting the movement of the stars to guide the tribe’s fate and enhance social bonds.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>4</Social>
+    </skillGains>
+		    <forcedTraits>
+      <DrugDesire>1</DrugDesire>
+    </forcedTraits>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_WarlordsRightHand</defName>
+    <title>Warlord’s Right Hand</title>
+    <titleShort>right hand</titleShort>
+    <description>[PAWN_nameDef] served as the trusted aide to a fearsome warlord, executing orders with unwavering loyalty and deadly efficiency.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Banished</defName>
+    <title>Banished Greenskin</title>
+    <titleShort>banished</titleShort>
+    <description>[PAWN_nameDef] was cast out of the clan for breaking sacred customs. Despite the exile, [PAWN_pronoun] survived in the wild and now seeks to reclaim honor.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Shaman</defName>
+    <title>Shaman</title>
+    <titleShort>shaman</titleShort>
+    <description>[PAWN_nameDef] possesses deep spiritual insight and guides the tribe through rituals and omens, communing with the ancestral spirits.</description>
+    <slot>Adulthood</slot>
+	    <skillGains>
+      <Medicine>5</Medicine>
+      <Plants>5</Plants>
+    </skillGains>
+	    <forcedTraits>
+      <DrugDesire>2</DrugDesire>
+    </forcedTraits>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_ShamanApprentice</defName>
+    <title>Shaman's Apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <description>[PAWN_nameDef] spent [PAWN_possessive] youth learning the sacred traditions from the tribe’s shaman, showing promise in the mystical arts.</description>
+    <slot>Adulthood</slot>
+	    <skillGains>
+      <Medicine>2</Medicine>
+      <Plants>3</Plants>
+    </skillGains>
+		    <forcedTraits>
+      <DrugDesire>1</DrugDesire>
+    </forcedTraits>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] fought countless battles defending the clan and honed [PAWN_possessive] combat skills in the heat of tribal warfare.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Brute</defName>
+    <title>Brute</title>
+    <titleShort>brute</titleShort>
+    <description>[PAWN_nameDef] relies on raw physical strength and overwhelming force to intimidate foes and crush enemies in battle.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Pathfinder</defName>
+    <title>Pathfinder</title>
+    <titleShort>pathfinder</titleShort>
+    <description>[PAWN_nameDef] is adept at navigating the wilds, uncovering hidden trails and secret sanctuaries that many have overlooked.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Skywatcher</defName>
+    <title>Skywatcher</title>
+    <titleShort>skywatcher</titleShort>
+    <description>[PAWN_nameDef] spends long nights studying the heavens, interpreting celestial signs to guide [PAWN_possessive] people.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_FireGuardian</defName>
+    <title>Guardian of the Fire</title>
+    <titleShort>fire guardian</titleShort>
+    <description>[PAWN_nameDef] has been entrusted with the sacred duty of tending the eternal flame—a symbol of the tribe’s spirit and resilience.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_WarchiefSpokesman</defName>
+    <title>Warchief Spokesman</title>
+    <titleShort>spokesman</titleShort>
+    <description>[PAWN_nameDef] acts as the mouthpiece for the clan’s leader, negotiating with rivals and rallying the warriors with persuasive force.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_LegendaryChampion</defName>
+    <title>Legendary Champion</title>
+    <titleShort>champion</titleShort>
+    <description>[PAWN_nameDef] rose to legendary status through unmatched combat skill and ferocity. [PAWN_pronoun] is revered for [PAWN_possessive] near-mythical melee prowess.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>7</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_ElderTreeGuardian</defName>
+    <title>Guardian of the Elder Tree</title>
+    <titleShort>tree guardian</titleShort>
+    <description>[PAWN_nameDef] has been charged with protecting the ancient elder tree—a sacred symbol of the tribe’s origins and wisdom.</description>
+    <slot>Adulthood</slot>
+		    <forcedTraits>
+      <DrugDesire>2</DrugDesire>
+    </forcedTraits>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+	    <skillGains>
+
+	  <Social>4</Social>
+	      
+
+   
+    </skillGains>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Wanderer</defName>
+    <title>Wanderer</title>
+    <titleShort>wanderer</titleShort>
+    <description>[PAWN_nameDef] roams the wilds, never staying in one place for long. [PAWN_pronoun] has learned to survive on [PAWN_possessive] own, gathering wisdom and skill from every journey.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_CursedBloodline</defName>
+    <title>Cursed Bloodline</title>
+    <titleShort>cursed</titleShort>
+    <description>[PAWN_nameDef] bears a dark curse in [PAWN_possessive] lineage—one that brings misfortune and hardship. Yet [PAWN_pronoun] strives to overcome the stigma and prove [PAWN_possessive] worth.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_FormerWarchief</defName>
+    <title>Former Warchief</title>
+    <titleShort>ex-warchief</titleShort>
+    <description>[PAWN_nameDef] once led the clan as warchief but was forced to step down. Highly respected despite the loss of power, [PAWN_pronoun] still wields considerable influence.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_PitFighter</defName>
+    <title>Pit Fighter</title>
+    <titleShort>pit fighter</titleShort>
+    <description>[PAWN_nameDef] was captured by humans and forced to fight for sport in brutal pits. In a desperate struggle, [PAWN_pronoun] managed to escape the arena, forever scarred by [PAWN_possessive] time as a fighter for entertainment.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>4</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_Berserker</defName>
+    <title>Berserker</title>
+    <titleShort>berserker</titleShort>
+    <description>[PAWN_nameDef] enters battle with a wild, uncontrollable fury, overcoming pain and fighting with relentless, savage force.</description>
+    <slot>Adulthood</slot>
+		    <skillGains>
+
+	      
+
+      <Melee>4</Melee>
+
+   
+    </skillGains>
+		    <forcedTraits>
+      <DrugDesire>1</DrugDesire>
+    </forcedTraits>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_SavageRaider</defName>
+    <title>Savage Raider</title>
+    <titleShort>raider</titleShort>
+    <description>[PAWN_nameDef] is feared for [PAWN_possessive] ruthless raids on rival settlements. [PAWN_pronoun] fights with a mix of cunning and savagery, leaving devastation in [PAWN_possessive] wake.</description>
+    <slot>Adulthood</slot>
+		    <skillGains>
+
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_GlorySeeker</defName>
+    <title>Glory Seeker</title>
+    <titleShort>glory</titleShort>
+    <description>[PAWN_nameDef] is driven by an insatiable desire for honor and fame, constantly seeking out battles and challenges in hopes of securing eternal glory.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior1</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+		    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior2</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior3</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior4</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior5</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior6</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior7</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior8</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior9</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior10</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+  <BackstoryDef>
+    <defName>Greenskin_FailedContender</defName>
+    <title>Failed Contender</title>
+    <titleShort>failed</titleShort>
+    <description>[PAWN_nameDef] once strove for a position of honor within the clan but failed to prove [PAWN_possessive] worth. The bitter taste of defeat still drives [PAWN_pronoun] to seek redemption.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  
+  
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior111</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+		    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior12</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior13</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior14</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior15</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior16</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior17</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior18</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior19</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+  <BackstoryDef>
+    <defName>Greenskin_TribalWarrior20</defName>
+    <title>Tribal Warrior</title>
+    <titleShort>warrior</titleShort>
+    <description>[PAWN_nameDef] has fought fiercely for the tribe, mastering the art of combat on the brutal battlefields.</description>
+    <slot>Adulthood</slot>
+	
+			    <skillGains>
+
+      <Melee>3</Melee>
+
+   
+    </skillGains>
+	
+    <spawnCategories>
+      <li>GreenskinBackStory</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+
+
+
+
+
+
+
+
+
+</Defs>

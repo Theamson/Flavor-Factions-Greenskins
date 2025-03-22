@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ===== Leather Gloves ===== -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Teamson_Handwear_GlovesLeather</defName>
+		<label>patchworkgloves</label>
+		<description>Provides minimal protection. Wearing leather gloves will increase workspeed and shooting accuracy.</description>
+		<graphicData>
+			<texPath>Apparel/GreenskinHandwear/TribalGloves</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.1</generateCommonality>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<statBases>
+			<MaxHitPoints>115</MaxHitPoints>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>0.25</Mass>
+			<StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>DankPyon_Handwear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+		<li>Teamson_Greenskins_T0_Cloth</li>
+        <li>Teamson_Greenskins_T1_Cloth</li>
+        <li>Teamson_Greenskins_T2_Cloth</li>
+		<li>Teamson_Greenskins_T3_Cloth</li>
+        <li>Teamson_Greenskins_T4_Cloth</li>
+			</tags>
+
+		</apparel>
+
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+
+
+
+</Defs>

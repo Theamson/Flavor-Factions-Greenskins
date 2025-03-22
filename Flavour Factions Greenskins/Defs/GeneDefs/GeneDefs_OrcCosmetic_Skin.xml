@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GreenSkin1</defName>
+		<label>green skin 1</label>
+		<labelShortAdj>green</labelShortAdj>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of this gene have a green skin.</description>
+		<skinColorOverride>(126, 138, 100)</skinColorOverride>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+		<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GreenSkin2</defName>
+		<label>green skin 2</label>
+		<labelShortAdj>green</labelShortAdj>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of this gene have a green skin.</description>
+		<skinColorOverride>(131, 138, 100)</skinColorOverride>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+		<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GreenSkin3</defName>
+		<label>green skin 3</label>
+		<labelShortAdj>green</labelShortAdj>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of this gene have a green skin.</description>
+		<skinColorOverride>(128, 138, 102)</skinColorOverride>
+		<displayOrderInCategory>102</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+		<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GreenSkin4</defName>
+		<label>green skin 4</label>
+		<labelShortAdj>green</labelShortAdj>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of this gene have a green skin.</description>
+		<skinColorOverride>(123, 137, 101)</skinColorOverride>
+		<displayOrderInCategory>103</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+		<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GreenSkin5</defName>
+		<label>green skin 5</label>
+		<labelShortAdj>green</labelShortAdj>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of this gene have a green skin.</description>
+		<skinColorOverride>(124, 134, 100)</skinColorOverride>
+		<displayOrderInCategory>104</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+		<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GreenSkin6</defName>
+		<label>green skin 6</label>
+		<labelShortAdj>green</labelShortAdj>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of this gene have a green skin.</description>
+		<skinColorOverride>(126, 137, 102)</skinColorOverride>
+		<displayOrderInCategory>105</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+			<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GreenSkin7</defName>
+		<label>green skin 7</label>
+		<labelShortAdj>green</labelShortAdj>
+		<displayCategory>Orc_Genes</displayCategory>
+		<description>Carriers of this gene have a green skin.</description>
+		<skinColorOverride>(125, 138, 100)</skinColorOverride>
+		<displayOrderInCategory>106</displayOrderInCategory>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	
+</Defs>

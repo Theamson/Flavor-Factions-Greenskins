@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Parents -->
+
+	<ThingDef Abstract="True" ParentName="BuildingBase" Name="RR_BuildingBase">
+
+		
+	</ThingDef>
+
+
+<ThingDef Abstract="True" Name="RR_TorchLamp" ParentName="BuildingBase">
+    <category>Building</category>
+    <graphicData>
+      <drawRotated>false</drawRotated>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>14</pathCost>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>2</Beauty>
+      <MeditationFocusStrength>0.0</MeditationFocusStrength>
+    </statBases>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+    <selectable>true</selectable>
+    <building>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+      <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.0</fuelConsumptionRate>
+        <fuelCapacity>20.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(184,136,83,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes><li>Flame</li></focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_Lit">
+            <offset>0.1</offset>
+          </li>
+          <li Class="FocusStrengthOffset_BuildingDefsLit">
+            <defs>
+              <li>Campfire</li>
+              <li>TorchLamp</li>
+              <li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+              <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+            </defs>
+            <offsetPerBuilding>0.01</offsetPerBuilding>
+            <radius>9.9</radius>
+            <maxBuildings>8</maxBuildings>
+            <explanationKey>MeditationFocusPerFlame</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+          </li>
+        </offsets>
+      </li>
+    </comps>
+
+  </ThingDef>
+ 
+  <ThingDef ParentName="Bed" Name="RR_FurBed">
+    <defName>RR_FurBed</defName>
+    <label>fur bed</label>
+    <description>A rudimentary sleeping arrangement composed of fur pelts or hides, utilized by ancient cultures for insulation and warmth during sleep.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/fursingle/fursingle</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,2.8)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows Inherit = "False">False</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>30</Mass>
+      <BedRestEffectiveness>0.95</BedRestEffectiveness>
+    </statBases>
+
+    <size>(1,2)</size>
+    <stuffCategories Inherit = "False">
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <building>
+      <paintable>true</paintable>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="DoubleBed" Name="RR_FurDoubleBed">
+    <defName>RR_FurDoubleBed</defName>
+    <label>fur double bed</label>
+    <description>A rudimentary sleeping arrangement composed of fur pelts or hides, utilized by ancient cultures for insulation and warmth during sleep. This one is big enough for two people.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/furdouble/furdouble</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3.3,3.05)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows Inherit = "False">False</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>50</Mass>
+      <Beauty>2</Beauty>
+      <BedRestEffectiveness>0.95</BedRestEffectiveness>
+    </statBases>
+
+    <size>(2,2)</size>
+    <stuffCategories Inherit = "False">
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>65</costStuffCount>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <building>
+      <paintable>true</paintable>
+    </building>
+  </ThingDef>
+
+<!-- Thrones -->
+
+  <ThingDef ParentName="ThroneBase">
+    <defName>RR_WoodThrone</defName>
+    <label>log throne</label>
+    <description>A primitive throne made out of a single log is a simplistic yet imposing seat.</description>
+		<altitudeLayer Inherit = "False">BuildingOnTop</altitudeLayer>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>15</Beauty>
+      <Comfort>0.75</Comfort>
+    </statBases>
+
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>125</costStuffCount>
+    <uiIconOffset>(0, 0)</uiIconOffset>
+    <uiIconScale>0.5</uiIconScale>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,-0.15,0)</drawOffset>
+      <texPath>Things/Building/Furniture/woodthrone/woodthrone</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.5,0.35,0.4)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0,2, 0.6, 0.6)</rect>
+      </damageData>
+    </graphicData>
+  </ThingDef>
+
+    <ThingDef ParentName="ThroneBase">
+    <defName>RR_StoneThrone</defName>
+    <label>stone throne</label>
+    <description>A rugged and sturdy seat hewn from solid stone, symbolizing strength and authority in ancient civilizations.</description>
+		<altitudeLayer Inherit = "False">BuildingOnTop</altitudeLayer>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>15</Beauty>
+      <Comfort>0.75</Comfort>
+    </statBases>
+
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>125</costStuffCount>
+    <uiIconOffset>(0, 0)</uiIconOffset>
+    <uiIconScale>0.5</uiIconScale>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,-0.15,0)</drawOffset>
+      <texPath>Things/Building/Furniture/stonethrone/stonethrone</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.5,0.35,0.4)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0,2, 0.6, 0.6)</rect>
+      </damageData>
+    </graphicData>
+  </ThingDef>
+
+<!-- Seating -->
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>RR_StoneStool</defName>
+    <label>stone stool</label>
+    <description>A modest and compact seat crafted from stone, providing a basic and functional seating option in early societies.</description>
+    <size>(1,1)</size>
+    <graphicData>
+      <texPath>Things/Building/Furniture/stonestool/stonestool_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <drawSize>(1.5,1.5)</drawSize>
+      <shadowData>
+        <volume>(0.18, 0.23, 0.18)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>0</Beauty>
+      <Comfort>0.5</Comfort>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+    </statBases>
+
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <pathCost>30</pathCost>
+    <uiOrder>2400</uiOrder>
+    <fillPercent>0.20</fillPercent>
+    <building>
+      <isSittable>true</isSittable>
+      <paintable>true</paintable>
+    </building>
+    <uiIconScale>0.8</uiIconScale>
+    <uiIconOffset>(0, -0.05)</uiIconOffset>
+    <rotatable>false</rotatable>
+  </ThingDef>
+
+
+
+
+	<ThingDef ParentName="RR_TorchLamp">
+		<defName>RR_StoneTorchOne</defName>
+		<label>stone torch </label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch1</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.8)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+  <ThingDef ParentName="RR_TorchLamp">
+		<defName>RR_StoneTorchTwo</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch2</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.5)</offset>
+      </li>
+	  </comps> 
+	</ThingDef>
+
+  <ThingDef ParentName="RR_TorchLamp">
+		<defName>RR_StoneTorchThree</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch3</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.057)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+  <ThingDef ParentName="RR_TorchLamp">
+		<defName>RR_StoneTorchFour</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch4</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.2</fireSize>
+        <offset>(-0.07,0,0.62)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+  <ThingDef ParentName="RR_TorchLamp">
+		<defName>RR_StoneTorchFive</defName>
+		<label>stone torch</label>
+		<description>A primitive stone brazier with a candle, typically used in early civilizations to provide ambient light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/stonetorch/stonetorch5</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<uiIconPath>Things/Building/Furniture/stonetorch/stonetorch5</uiIconPath>
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.25</fireSize>
+        <offset>(0,0,0.17)</offset>
+      </li>
+    </comps>
+	</ThingDef>
+
+
+</Defs>

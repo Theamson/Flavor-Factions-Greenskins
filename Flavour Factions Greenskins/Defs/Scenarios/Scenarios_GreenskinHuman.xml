@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef Name="Crashlanded">
+    <defName>OutDriven</defName>
+    <label>Out driven from their homeland</label>
+    <description>In a brutal Greenskin raid, a peaceful village was thrown into chaos. The savage assault left no part of the settlement untouched as the marauders swept through with ruthless fury. The villagers, caught completely off guard, were forced to flee their homes in a desperate bid for survival, taking with them whatever they could salvage. Amidst the bloodshed and destruction, many lost their lives, and only a handful managed to escape the onslaught, gathering together in the hope of regrouping and finding safety. Even now, the survivors live in unrelenting terror, always looking over their shoulders, haunted by the fear that the savage Greenskins may still be hunting them.
+	
+	WARNING: This is a difficult start. 
+	
+	</description>
+    <scenario>
+      <summary>Seven survivors of a greenskin ambush.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Teamson_PlayerKingdom</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>7</pawnCount>
+          <pawnChoiceCount>14</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          
+        </li>
+		
+						<li Class="KCSG.ScenPart_AddStartingStructure">
+					<def>VFEC_AddStartingStructure</def>
+					<structureLabel>Your belongings</structureLabel>
+					<nearMapCenter>True</nearMapCenter>
+					<chooseFrom>
+						<li>GreenskinScenarioDef</li>
+					</chooseFrom>
+				</li>
+
+        <!-- Player pawns modifiers -->
+
+		 <li Class="ScenPart_ForcedHediff">
+		          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.10</chance>
+          <hediff>Cut</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~35</severityRange>
+        </li>
+		 <li Class="ScenPart_ForcedHediff">
+				          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.20</chance>
+          <hediff>Scratch</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~5</severityRange>
+        </li>
+		 <li Class="ScenPart_ForcedHediff">
+						          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.10</chance>
+          <hediff>Bite</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~10</severityRange>
+        </li>
+        		 <li Class="ScenPart_ForcedHediff">
+						          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.20</chance>
+          <hediff>Stab</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~35</severityRange>
+        </li>
+		
+   		 <li Class="ScenPart_ForcedHediff">
+						          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.15</chance>
+          <hediff>Bruise</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~5</severityRange>
+        </li>
+		
+
+		
+		
+        <!-- Player starting things -->
+
+        
+		
+	
+		
+		
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Bow_Short</thingDef>
+          
+        </li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_MeleeWeapon_MilitiaSpear</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+		
+		        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_MeleeWeapon_MilitiaSpear</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+		
+		        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_MeleeWeapon_Hatchet</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+		
+				
+		
+		
+
+
+        
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>At the break of a new day, the seven survivors, grateful for their escape, have found refuge in a place promising a fresh start. Though the promise of new beginnings offers solace, the memories of that brutal night still echo in their hearts. Could this haven truly be the sanctuary they so desperately need?
+		  
+		  </text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+  
+
+
+
+</Defs>
+
+

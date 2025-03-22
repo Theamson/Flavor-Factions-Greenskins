@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<KCSG.SymbolDef>
+  <defName>DankPyon_SackClosed_East</defName>
+  <thing>DankPyon_SackClosed</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>DankPyon_BattleElixir</defName>
+  <thing>DankPyon_BattleElixir</thing>
+</KCSG.SymbolDef>
+</Defs>

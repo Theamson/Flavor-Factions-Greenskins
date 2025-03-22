@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Shields -->
+<Patch>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Tall Shields -->
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_TallShield"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T0_Shield</li>
+      <li>Teamson_Greenskins_T1_Shield</li>
+      <li>Teamson_Greenskins_T2_Shield</li>
+      <li>Teamson_Greenskins_T3_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_TallShieldII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T3_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_TallShieldIII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T4_Shield</li>
+    </value>
+  </Operation>
+
+  <!-- Round Shields -->
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RoundShield"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T0_Shield</li>
+      <li>Teamson_Greenskins_T1_Shield</li>
+      <li>Teamson_Greenskins_T2_Shield</li>
+      <li>Teamson_Greenskins_T3_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RoundShieldII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T3_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RoundShieldIII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T4_Shield</li>
+    </value>
+  </Operation>
+
+  <!-- Metal Shields -->
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_MetalShield"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T1_Shield</li>
+      <li>Teamson_Greenskins_T2_Shield</li>
+      <li>Teamson_Greenskins_T3_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_MetalShieldII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T3_Shield</li>
+      <li>Teamson_Greenskins_T4_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_MetalShieldIII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T4_Shield</li>
+    </value>
+  </Operation>
+
+  <!-- Banners (T10) -->
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbBannerI"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T10_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbBannerII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T10_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbBannerIII"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T10_Shield</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+
+	    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbBannerIV"]/comps/li[@Class="VFECore.CompProperties_Shield"]/shieldTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T10_Shield</li>
+    </value>
+  </Operation>
+
+  <!-- Weapons 2h (Teamson_Greenskins_TX_2h) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedClaymore"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T1_2h</li>
+      <li>Teamson_Greenskins_T2_2h</li>
+      <li>Teamson_Greenskins_T3_2h</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedBattleAxe"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T1_2h</li>
+      <li>Teamson_Greenskins_T2_2h</li>
+      <li>Teamson_Greenskins_T3_2h</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedGlaive"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T4_2h</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_GreatSkullMace"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T10_2h</li>
+    </value>
+  </Operation>
+
+  <!-- Weapons 1h (Teamson_Greenskins_TX_1h) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_GreatBoneClub"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_Bers</li>
+      
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_GreatSkullMace"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_Bers</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedSword"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T0_1h</li>
+      <li>Teamson_Greenskins_T1_1h</li>
+      <li>Teamson_Greenskins_T2_1h</li>
+      <li>Teamson_Greenskins_T3_1h</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedAxe"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T0_1h</li>
+      <li>Teamson_Greenskins_T1_1h</li>
+      <li>Teamson_Greenskins_T2_1h</li>
+      <li>Teamson_Greenskins_T3_1h</li>
+      <li>Teamson_Greenskins_T4_1h</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedMace"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T1_1h</li>
+      <li>Teamson_Greenskins_T2_1h</li>
+      <li>Teamson_Greenskins_T3_1h</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedSkullMace"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T4_1h</li>
+    </value>
+  </Operation>
+
+  <!-- Weapons Range (Teamson_Greenskins_TX_Range) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedJavalin"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T0_Range</li>
+      <li>Teamson_Greenskins_T1_Range</li>
+      <li>Teamson_Greenskins_T2_Range</li>
+      <li>Teamson_Greenskins_T3_Range</li>
+      <li>Teamson_Greenskins_T4_Range</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedThrowingAxe"]/weaponTags</xpath>
+    <value>
+      <li>Teamson_Greenskins_T0_Range</li>
+      <li>Teamson_Greenskins_T1_Range</li>
+      <li>Teamson_Greenskins_T2_Range</li>
+      <li>Teamson_Greenskins_T3_Range</li>
+      <li>Teamson_Greenskins_T4_Range</li>
+    </value>
+  </Operation>
+</Patch>

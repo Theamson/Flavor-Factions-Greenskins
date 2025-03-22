@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Flavor Factions: Greenskins Medieval</name>
+	<author>Teamson</author>
+	<packageId>Teamson.FlavorFactions.GreenskinsMedieval</packageId>
+	<supportedVersions>
+	<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+  <li>
+    <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+    <displayName>Vanilla Expanded Framework</displayName>
+    <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+    <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+  </li>
+    <li>
+<packageId>VanillaExpanded.VMemesE</packageId>
+<displayName>Vanilla Ideology Expanded - Memes and Structures</displayName>
+<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500</steamWorkshopUrl>
+
+  </li>
+    <li>
+        <packageId>RedMattis.BigSmall.Core</packageId>
+        <displayName>Big and Small - Genes &amp; More</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2920751126</steamWorkshopUrl>
+      </li>
+    <li>
+    <packageId>DankPyon.Medieval.Overhaul</packageId>
+    <displayName>Medieval Overhaul</displayName>
+    <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3219596926</steamWorkshopUrl>
+
+  </li>
+  
+      <li>
+    <packageId>pphhyy.BarbariansMOSubmod</packageId>
+    <displayName>Medieval Overhaul: Barbarians</displayName>
+    <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3216459199</steamWorkshopUrl>
+
+  </li>
+  
+  
+</modDependencies>
+<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>brrainz.harmony</li>
+		<li>RedMattis.BetterPrerequisites</li>
+		<li>RedMattis.BigSmall.Core</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>Xenotypes Expanded: Greenskins</li>
+</loadAfter>
+	<description>
+Yup, those are Greenskins. RUUUUUN
+	</description>
+	</ModMetaData>

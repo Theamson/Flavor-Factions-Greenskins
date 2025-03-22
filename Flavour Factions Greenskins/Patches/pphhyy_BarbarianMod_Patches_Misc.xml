@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  
+  <Patch>
+    
+  <!-- Remove existing layers nodes -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbLeatherCoat"]/apparel/layers</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbLeatherCoatII"]/apparel/layers</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbTribal"]/apparel/layers</xpath>
+  </Operation>
+
+  <!-- Add new layers element with your desired value -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbLeatherCoat"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Shell</li>
+      </layers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbLeatherCoatII"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Shell</li>
+      </layers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbTribal"]/apparel</xpath>
+    <value>
+      <layers>
+        <li>Shell</li>
+      </layers>
+    </value>
+  </Operation>
+	
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_TribalA"]/stuffCategories/li[text()="Fabric"]</xpath>
+  </Operation>
+
+</Patch>
+	
+	
+	
+	
+	
+	
+	
+	
+	

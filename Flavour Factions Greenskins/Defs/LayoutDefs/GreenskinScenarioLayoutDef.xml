@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<KCSG.StructureLayoutDef>
+  <defName>GreenskinScenarioDef</defName>
+  <isStorage>true</isStorage>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,DankPyon_LogChair_DankPyon_RawWood_North,.,.,.</li>
+      <li>.,DankPyon_SackClosed_East,DankPyon_Crate1x1c_WoodLog_South,.,.,.,Campfire_WoodLog_North,DankPyon_LogChair_DankPyon_RawWood_North,.</li>
+      <li>.,DankPyon_Storage_Cart_Empty_WoodLog_North,.,.,.,.,DankPyon_LogChair_DankPyon_RawWood_North,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,DankPyon_Storage_Cart_Assorted_WoodLog_North,.,DankPyon_WoodLogs1x1c_DankPyon_RawWood_South,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,MedicineHerbal,.,.,.,.,.,.,.</li>
+      <li>.,MealSurvivalPack,MealSurvivalPack,.,.,.,.,.,.</li>
+      <li>.,MealSurvivalPack,MealSurvivalPack,.,.,.,.,.,.</li>
+      <li>.,.,.,.,MealSurvivalPack,Steel,DankPyon_RawWood,.,.</li>
+      <li>.,.,.,.,Silver,Steel,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,MedicineHerbal,.,.,.,.,.,.,.</li>
+      <li>.,MealSurvivalPack,MealSurvivalPack,.,.,.,.,.,.</li>
+      <li>.,MealSurvivalPack,MealSurvivalPack,.,.,.,.,.,.</li>
+      <li>.,.,.,.,MealSurvivalPack,MedicineHerbal,DankPyon_RawWood,.,.</li>
+      <li>.,.,.,.,Silver,MealSurvivalPack,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,MealSurvivalPack,.,.,.,.,.,.</li>
+      <li>.,.,MealSurvivalPack,.,.,.,.,.,.</li>
+      <li>.,.,.,.,MealSurvivalPack,MealSurvivalPack,DankPyon_RawWood,.,.</li>
+      <li>.,.,.,.,MealSurvivalPack,DankPyon_BattleElixir,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <tags>
+    <li>GreenskinScenario</li>
+  </tags>
+  <modRequirements>
+    <li>dankpyon.medieval.overhaul</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
+
+</Defs>

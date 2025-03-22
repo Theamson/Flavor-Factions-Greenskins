@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CultureDef>
+		<defName>GreenskinCultureDef</defName>
+		<label>Greenskin Paganism</label>
+		<description>An ancient culture common among Greenskin tribes.</description>
+		<pawnNameMaker MayRequire="Teamson.XenotypesExpanded.Greenskins">NamerPersonOrc</pawnNameMaker>
+		<ideoNameMaker>NamerIdeoGreenskin</ideoNameMaker>
+		<deityNameMaker>NamerDeityGreenskin</deityNameMaker>
+		<deityTypeMaker>NamerDeityTypeGreenskin</deityTypeMaker>
+		<leaderTitleMaker>LeaderTitleMaker_Greenskin</leaderTitleMaker>
+		<festivalNameMaker>NamerFestivalGreenskin</festivalNameMaker>
+		<allowedPlaceTags>
+		<li>OriginTribal</li>
+		</allowedPlaceTags>
+		<iconPath>World/WorldObjects/Expanding/Town</iconPath>
+		    <preferredWeaponClasses>
+      <noble>Neolithic</noble>
+      <despised>Ultratech</despised>
+    </preferredWeaponClasses>
+	<thingStyleCategories>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <category>Totemic</category>
+        <priority>1</priority>
+      </li>
+    </thingStyleCategories>
+		<styleItemTags>
+			<li>
+				<tag MayRequire="Teamson.XenotypesExpanded.Greenskins">OrcishHairstyleBehemoth</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+						<li>
+				<tag MayRequire="Teamson.XenotypesExpanded.Greenskins">OrcishHairstyleUni</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+						<li>
+				<tag MayRequire="Teamson.XenotypesExpanded.Greenskins">OrcishHairstyleFemale</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+						<li>
+				<tag MayRequire="Teamson.XenotypesExpanded.Greenskins">OrcishHairstyle</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</CultureDef>
+
+
+</Defs>

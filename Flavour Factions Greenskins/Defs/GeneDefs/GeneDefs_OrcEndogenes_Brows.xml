@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<!-- Brows -->
+	
+	
+	<GeneDef>
+    <defName>Orc_Brows</defName>
+    <label>Greenskin Brows</label>
+    <description>Carriers of these gene tend to grow massive brows.</description>
+    <biostatCpx>0</biostatCpx>
+    <displayCategory>Orc_Genes</displayCategory>
+    <iconPath>UI/Icons/Genes/Gene_OrcBrows</iconPath>
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+     
+	 <texPaths>
+		
+		
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows4_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows4_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows5_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows5_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows5_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcBrows/Orc_Brows6_Male</li>
+
+
+
+		
+		</texPaths>
+	 
+	 
+	 
+	 
+	 
+        <parentTagDef>Head</parentTagDef>
+        <visibleFacing>
+          <li>East</li>
+          <li>South</li>
+          <li>West</li>
+        </visibleFacing>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <colorType>Skin</colorType>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <baseLayer>61</baseLayer>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+	
+</Defs>

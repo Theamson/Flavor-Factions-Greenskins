@@ -1,0 +1,18 @@
+<Defs>
+
+
+
+  <FurDef>
+    <defName>Orc_Body11</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+		<Hulk>Things/Pawn/Humanlike/Bodies/Naked_Orc11</Hulk>
+		<Male>Things/Pawn/Humanlike/Bodies/Naked_Orc11_Male</Male>
+		<Female>Things/Pawn/Humanlike/Bodies/Naked_Orc11_Female</Female>
+		<Fat>Things/Pawn/Humanlike/Bodies/Naked_Orc11</Fat>
+		<Thin>Things/Pawn/Humanlike/Bodies/Naked_Orc11</Thin>
+		<Child>Humanlike/Bodies/BS_NoFur</Child>
+		<Baby>Humanlike/Bodies/BS_NoFur</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+</Defs>

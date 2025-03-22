@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>Orc_Ears</defName>
+		<label>Greenskin Ears</label>
+		<description>Carriers of these gene tend to grow short and pointy ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_OrcEars</iconPath>
+		<displayCategory>Orc_Genes</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<renderNodeProperties>
+			<li>
+				<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPaths>
+		
+		
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears1_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears2_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears3_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears4_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears5_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears6_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears7_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears8_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears9_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears10_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears11_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears12_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears13_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears14_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears15_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears16_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears17_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears18_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears19_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears20_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears21_Male</li>
+<li>Things/Pawn/Humanlike/HeadAttachments/OrcEars/Orc_Ears22_Male</li>
+
+
+		
+		</texPaths>
+       <colorType>Skin</colorType>
+				<parentTagDef>Head</parentTagDef>
+				<useSkinShader>true</useSkinShader>
+				<useRottenColor>true</useRottenColor>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<drawData>
+					<defaultData>
+						<layer>60</layer>
+					</defaultData>
+					<dataNorth>
+						<layer>60</layer>
+					</dataNorth>
+					<dataEast>
+						<offset>(0,0,0)</offset>
+					</dataEast>
+					<dataSouth>
+						<offset>(0,0,0)</offset>
+					</dataSouth>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+		<symbolPack>
+			<prefixSymbols>
+				<li><symbol>goblin</symbol></li>
+				<li><symbol>little</symbol></li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li><symbol>creature</symbol></li>
+				<li><symbol>ear</symbol></li>
+				<li><symbol>beast</symbol></li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+  
+ 
+  
+</Defs>

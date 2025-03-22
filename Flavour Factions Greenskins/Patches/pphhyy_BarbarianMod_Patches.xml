@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+  <!-- Armor -->
+  <Patch>
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbLeatherCoat"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T0_Armor</li>
+        <li>Teamson_Greenskins_T1_Armor</li>
+        <li>Teamson_Greenskins_T2_Armor</li>
+        <li>Teamson_Greenskins_T3_Armor</li>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbLeatherCoatII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T1_Armor</li>
+        <li>Teamson_Greenskins_T2_Armor</li>
+        <li>Teamson_Greenskins_T3_Armor</li>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_Mail"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T1_Armor</li>
+        <li>Teamson_Greenskins_T2_Armor</li>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_MailII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_Scale"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T1_Armor</li>
+        <li>Teamson_Greenskins_T2_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_ScaleII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T2_Armor</li>
+        <li>Teamson_Greenskins_T3_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_ChosenMail"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T2_Armor</li>
+        <li>Teamson_Greenskins_T3_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_ChosenMailII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T4_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_ChosenScale"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T2_Armor</li>
+        <li>Teamson_Greenskins_T3_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_ChosenScaleII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T4_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_WarlordArmor"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Armor</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_WarlordArmorII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T4_Armor</li>
+      </value>
+    </Operation>
+  
+  
+  <!-- Cloth -->
+
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Apparel_TribalA"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T0_Cloth</li>
+        <li>Teamson_Greenskins_T1_Cloth</li>
+        <li>Teamson_Greenskins_T2_Cloth</li>
+		<li>Teamson_Greenskins_T3_Cloth</li>
+        <li>Teamson_Greenskins_T4_Cloth</li>
+      </value>
+    </Operation>
+  
+    
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_BarbTribal"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T0_Cloth</li>
+        <li>Teamson_Greenskins_T1_Cloth</li>
+        <li>Teamson_Greenskins_T2_Cloth</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_RustedChain"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Cloth</li>
+		<li>Teamson_Greenskins_T4_Cloth</li>
+      </value>
+    </Operation>
+  
+  
+  <!-- Helmet -->
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarian_HeadBand"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T0_Helmet</li>
+        <li>Teamson_Greenskins_T1_Helmet</li>
+        <li>Teamson_Greenskins_T2_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_WarlordHelm"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_WarlordHelmII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_WarlordHelmIII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T4_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_MetalHelm"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T1_Helmet</li>
+        <li>Teamson_Greenskins_T2_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_MetalHelmII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T2_Helmet</li>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_MetalHelmIII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenSpike"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T2_Helmet</li>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenSpikeII"]/apparel</xpath>
+    <value>
+      <tags>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </tags>
+    </value>
+  </Operation>
+
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenSpikeIII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T4_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenAntler"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T2_Helmet</li>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenAntlerII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T4_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenAntlerIII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T4_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenHorn"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T2_Helmet</li>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenHornII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  
+    <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="pphhyy_Barbarians_ChosenHornIII"]/apparel/tags</xpath>
+      <value>
+        <li>Teamson_Greenskins_T3_Helmet</li>
+      </value>
+    </Operation>
+  
+  </Patch>
+
+

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Tribe -->
+  
+  <RulePackDef>
+    <defName>NamerFactionGreenskin</defName>
+    <include>
+      <li>TribalWordUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->Greenskin Tribes</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerSettlementGreenskin</defName>
+    <include>
+      <li>TribalWordUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[Clanname] [Clantype]</li>
+
+        <li>Clanname->[GreenskinSettlementNames]</li>
+		<li>Clantype->[GreenskinSettlementClanType]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>GreenskinSettlementNames->Names/GreenskinSettlementNames</li>
+        <li>GreenskinSettlementClanType->Names/GreenskinSettlementClanType</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

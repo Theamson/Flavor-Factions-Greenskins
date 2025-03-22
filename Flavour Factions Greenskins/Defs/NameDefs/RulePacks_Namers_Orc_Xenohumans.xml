@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonOrc</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] '[nickName]' [lastName]</li>
+
+        <li>firstName->[FirstNameOrc]</li>
+		<li>lastName->[LastNameOrc]</li>
+		<li>nickName->[FirstNameOrc]</li>
+
+      </rulesStrings>
+      <rulesFiles>
+        <li>FirstNameOrc->TeamsonXeno/FirstName_Orc</li>
+        <li>LastNameOrc->TeamsonXeno/LastName_Orc</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

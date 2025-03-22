@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==========[Base]========== -->
+	<PawnKindDef Name="Teamson_Greenskin_NonPlayerKindBase" Abstract="True">
+		<maxGenerationAge>60</maxGenerationAge>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>Pemmican</invFoodDef>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+		<disallowedTraits>
+		  <li>Nudist</li>
+		  <li>Dwarfism</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+		  <li>Violent</li>
+		</requiredWorkTags>
+
+		<!--
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_DunmerAshlanderBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
+		-->
+	</PawnKindDef>
+
+	<!-- ==========[Thrall]========== -->
+
+	<PawnKindDef ParentName="Teamson_Greenskin_NonPlayerKindBase" Name="Teamson_Greenskin_ThrallBase" Abstract="True">
+		<combatPower>80</combatPower>
+		<invNutrition>0</invNutrition>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.2~1.1</gearHealthRange>
+		<apparelMoney>120~650</apparelMoney>
+		<weaponMoney>100~2000</weaponMoney>
+		<initialWillRange>30~50</initialWillRange>
+		<initialResistanceRange>50~80</initialResistanceRange>
+						<xenotypeSet>
+			<xenotypeChances>
+				<GreenskinAverage>500</GreenskinAverage>
+				<HulkingGreenskin>50</HulkingGreenskin>
+			</xenotypeChances>
+				</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- ==========[Marauder]========== -->
+
+	<PawnKindDef ParentName="Teamson_Greenskin_NonPlayerKindBase" Name="Teamson_Greenskin_MarauderBase" Abstract="True">
+		
+		<combatPower>250</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>569~1250</apparelMoney>
+		<weaponMoney>100~2000</weaponMoney>
+		<!-- <disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits> -->
+		<initialWillRange>30~50</initialWillRange>
+		<initialResistanceRange>50~80</initialResistanceRange>
+								<xenotypeSet>
+			<xenotypeChances>
+				<GreenskinAverage>500</GreenskinAverage>
+				<HulkingGreenskin>100</HulkingGreenskin>
+			</xenotypeChances>
+				</xenotypeSet>
+	</PawnKindDef>
+
+
+
+	<!-- ==========[Warrior]========== -->
+	<PawnKindDef ParentName="Teamson_Greenskin_NonPlayerKindBase" Name="Teamson_Greenskin_WarriorBase" Abstract="True">
+		
+		<combatPower>350</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>762~2000</apparelMoney>
+
+		<weaponMoney>100~2000</weaponMoney>
+		<initialWillRange>30~50</initialWillRange>
+		<initialResistanceRange>50~80</initialResistanceRange>
+								<xenotypeSet>
+			<xenotypeChances>
+				
+				<GreenskinAverage>500</GreenskinAverage>
+				<HulkingGreenskin>500</HulkingGreenskin>
+			</xenotypeChances>
+				</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- ==========[Chosen]========== -->
+
+	<PawnKindDef ParentName="Teamson_Greenskin_NonPlayerKindBase" Name="Teamson_Greenskin_ChosenBase" Abstract="True">
+		
+		<combatPower>450</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>651~2000</apparelMoney>
+		<!-- <apparelRequired>
+			<li>Mashed_Lynian_Apparel_PurrserkerHelmet</li>
+		</apparelRequired> -->
+		<weaponMoney>100~2000</weaponMoney>
+		<initialWillRange>50~70</initialWillRange>
+		<initialResistanceRange>70~90</initialResistanceRange>
+								<xenotypeSet>
+			<xenotypeChances>
+				<GreenskinBehemoth>50</GreenskinBehemoth>
+				<GreenskinAverage>200</GreenskinAverage>
+				<HulkingGreenskin>400</HulkingGreenskin>
+			</xenotypeChances>
+				</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- ==========[Warlord]========== -->
+    
+	<PawnKindDef ParentName="Teamson_Greenskin_NonPlayerKindBase" Name="Teamson_Greenskin_WarlordBase" Abstract="True">
+		<combatPower>250</combatPower>
+		<!-- <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>999</maxGenerationAge> -->
+		<itemQuality>Poor</itemQuality>
+		<factionLeader>true</factionLeader>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>1077~2000</apparelMoney>
+		<!-- <apparelRequired>
+			<li>Mashed_Lynian_Apparel_PurrserkerHelmet</li>
+			<li>Mashed_Lynian_Apparel_PurrserkerArmour</li>
+			<li>Mashed_Lynian_Apparel_PurrserkerBackPack</li>
+		</apparelRequired> -->
+		<weaponMoney>100~2000</weaponMoney>
+		<initialWillRange>75~95</initialWillRange>
+		<initialResistanceRange>95~100</initialResistanceRange>
+								<xenotypeSet>
+			<xenotypeChances>
+				<GreenskinBehemoth>200</GreenskinBehemoth>
+				<HulkingGreenskin>100</HulkingGreenskin>
+			</xenotypeChances>
+				</xenotypeSet>
+	</PawnKindDef>
+
+
+
+
+	<!-- ==========[Basic, Thrall]========== -->
+	<PawnKindDef ParentName="Teamson_Greenskin_ThrallBase">
+		<defName>Teamson_Greenskin_Thrall</defName>
+		<label>Thrall</label>
+		<race>Human</race>
+		<minGenerationAge>19</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T0_Armor</li>
+			<li>Teamson_Greenskins_T0_Helmet</li>
+			<li>Teamson_Greenskins_T0_Cloth</li>
+		</apparelTags>
+		<weaponTags>
+			<li>Teamson_Greenskins_T0_1h</li>
+			<li>Teamson_Greenskins_T0_2h</li>
+            <li>Teamson_Greenskins_T0_Range</li>
+		</weaponTags>
+
+
+	</PawnKindDef>
+	
+		<PawnKindDef ParentName="Teamson_Greenskin_ThrallBase">
+		<defName>Teamson_Greenskin_ThrallShield</defName>
+		<label>Thrall</label>
+		<race>Human</race>
+		<minGenerationAge>19</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T0_Armor</li>
+			<li>Teamson_Greenskins_T0_Helmet</li>
+			<li>Teamson_Greenskins_T0_Cloth</li>
+		</apparelTags>
+		<weaponTags>
+			<li>Teamson_Greenskins_T0_1h</li>
+
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+			  <li>Teamson_Greenskins_T0_Shield</li>
+			  
+			  
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+
+	
+	<PawnKindDef ParentName="Teamson_Greenskin_ThrallBase">
+		<defName>Teamson_Greenskin_Youngling</defName>
+		<label>Youngling</label>
+		<race>Human</race>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>18</maxGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T0_Armor</li>
+			<li>Teamson_Greenskins_T0_Cloth</li>
+		</apparelTags>
+		<weaponTags>
+			<li>Teamson_Greenskins_T0_1h</li>
+            <li>Teamson_Greenskins_T0_Range</li>
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+			  <li>Teamson_Greenskins_T0_Shield</li>
+			  
+			  
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+	
+	<!-- ==========[Basic, Marauder Shield]========== -->
+	<PawnKindDef ParentName="Teamson_Greenskin_MarauderBase">
+		<defName>Teamson_Greenskin_Raider</defName>
+		<label>Raider</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T1_Armor</li>
+            <li>Teamson_Greenskins_T1_Cloth</li>
+            
+		</apparelTags>
+		<weaponTags>
+			<li>pphhyy_Barbarian_BarbThrown</li>
+            <li>Teamson_Greenskins_T1_1h</li>
+			<li>Teamson_Greenskins_T1_2h</li>
+		</weaponTags>
+
+	</PawnKindDef>
+	
+		<!-- ==========[Basic, Marauder Shield]========== -->
+	<PawnKindDef ParentName="Teamson_Greenskin_MarauderBase">
+		<defName>Teamson_Greenskin_RaiderShield</defName>
+		<label>Raider</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T1_Armor</li>
+            <li>Teamson_Greenskins_T1_Cloth</li>
+            
+		</apparelTags>
+		<weaponTags>
+
+            <li>Teamson_Greenskins_T1_1h</li>
+
+		</weaponTags>
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+			  <li>Teamson_Greenskins_T1_Shield</li>
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+		<PawnKindDef ParentName="Teamson_Greenskin_MarauderBase">
+		<defName>Teamson_Greenskin_Warrior</defName>
+		<label>Warrior</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T1_Armor</li>
+            <li>Teamson_Greenskins_T1_Cloth</li>
+            <li>Teamson_Greenskins_T1_Helmet</li>
+		</apparelTags>
+		<weaponTags>
+			<li>pphhyy_Barbarian_BarbThrown</li>
+
+			<li>Teamson_Greenskins_T1_2h</li>
+
+		</weaponTags>
+
+	</PawnKindDef>
+	
+			<PawnKindDef ParentName="Teamson_Greenskin_MarauderBase">
+		<defName>Teamson_Greenskin_WarriorShield</defName>
+		<label>Warrior</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T1_Armor</li>
+            <li>Teamson_Greenskins_T1_Cloth</li>
+            <li>Teamson_Greenskins_T1_Helmet</li>
+		</apparelTags>
+		<weaponTags>
+
+            <li>Teamson_Greenskins_T1_1h</li>
+
+		</weaponTags>
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+			  <li>Teamson_Greenskins_T1_Shield</li>
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+
+
+
+
+	<!-- ==========[Advanced, Warrior]========== -->
+	<PawnKindDef ParentName="Teamson_Greenskin_WarriorBase">
+		<defName>Teamson_Greenskin_Marauder</defName>
+		<label>Marauder</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags> 
+			<li>Teamson_Greenskins_T2_Armor</li>
+            <li>Teamson_Greenskins_T2_Cloth</li>
+            <li>Teamson_Greenskins_T2_Helmet</li>
+		</apparelTags>
+		<weaponTags>
+
+
+			<li>Teamson_Greenskins_T2_2h</li>
+		</weaponTags>
+
+
+	</PawnKindDef>
+	
+		<PawnKindDef ParentName="Teamson_Greenskin_WarriorBase">
+		<defName>Teamson_Greenskin_MarauderShield</defName>
+		<label>Marauder</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags> 
+			<li>Teamson_Greenskins_T2_Armor</li>
+            <li>Teamson_Greenskins_T2_Cloth</li>
+            <li>Teamson_Greenskins_T2_Helmet</li>
+		</apparelTags>
+		<weaponTags>
+
+            <li>Teamson_Greenskins_T2_1h</li>
+
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+              <li>Teamson_Greenskins_T2_Shield</li>
+
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+	
+	
+	
+	
+		<PawnKindDef ParentName="Teamson_Greenskin_WarriorBase">
+		<defName>Teamson_Greenskin_Brute</defName>
+		<label>Brute</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelMoney>1000~2000</apparelMoney>
+		<apparelTags> 
+			<li>Teamson_Greenskins_Bers_Armor</li>
+            <li>Teamson_Greenskins_T2_Helmet</li>
+			<li>Teamson_Greenskins_T3_Helmet</li>
+		</apparelTags>
+		<weaponTags>
+			
+            <li>Teamson_Greenskins_T2_1h</li>
+			<li>Teamson_Greenskins_T2_2h</li>
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+              <li>Teamson_Greenskins_T2_Shield</li>
+
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+
+	<!-- ==========[Chosen]========== -->
+	<PawnKindDef ParentName="Teamson_Greenskin_ChosenBase">
+		<defName>Teamson_Greenskin_Chosen</defName>
+		<label>Chosen</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags> 
+			<li>Teamson_Greenskins_T3_Cloth</li>
+            <li>Teamson_Greenskins_T3_Armor</li>
+            <li>Teamson_Greenskins_T3_Helmet</li>
+
+		</apparelTags>
+		<weaponTags>
+			<li>pphhyy_Barbarian_BarbThrown</li>
+            <li>Teamson_Greenskins_T3_2h</li>
+			<li>Teamson_Greenskins_T3_1h</li>
+		</weaponTags>
+
+
+	</PawnKindDef>
+	
+		<PawnKindDef ParentName="Teamson_Greenskin_ChosenBase">
+		<defName>Teamson_Greenskin_ChosenShield</defName>
+		<label>Chosen</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags> 
+			<li>Teamson_Greenskins_T3_Cloth</li>
+            <li>Teamson_Greenskins_T3_Armor</li>
+            <li>Teamson_Greenskins_T3_Helmet</li>
+
+		</apparelTags>
+		<weaponTags>
+
+			<li>Teamson_Greenskins_T3_1h</li>
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+              <li>Teamson_Greenskins_T3_Shield</li>
+
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+			<PawnKindDef ParentName="Teamson_Greenskin_ChosenBase">
+		<defName>Teamson_Greenskin_BannerBearer</defName>
+		<label>Bannerbearer</label>
+		<race>Human</race>
+		<minGenerationAge>19</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+			<li>Teamson_Greenskins_T3_Cloth</li>
+            <li>Teamson_Greenskins_T3_Armor</li>
+            <li>Teamson_Greenskins_T3_Helmet</li>
+		</apparelTags>
+		<weaponTags>
+			<li>Teamson_Greenskins_T0_1h</li>
+					<li>Teamson_Greenskins_T3_1h</li>
+							<li>Teamson_Greenskins_T2_1h</li>
+									<li>Teamson_Greenskins_T1_1h</li>
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+			  <li>Teamson_Greenskins_T10_Shield</li>
+			  
+			  
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+		<PawnKindDef ParentName="Teamson_Greenskin_ChosenBase">
+		<defName>Teamson_Greenskin_Champion</defName>
+		<label>Champion</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags> 
+			<li>Teamson_Greenskins_T3_Cloth</li>
+            <li>Teamson_Greenskins_T3_Armor</li>
+            </apparelTags>
+		<weaponTags>
+
+            <li>Teamson_Greenskins_T3_2h</li>
+			<li>Teamson_Greenskins_T3_1h</li>
+		</weaponTags>
+
+
+	</PawnKindDef>
+	
+			<PawnKindDef ParentName="Teamson_Greenskin_ChosenBase">
+		<defName>Teamson_Greenskin_ChampionShield</defName>
+		<label>Champion</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags> 
+			<li>Teamson_Greenskins_T3_Cloth</li>
+            <li>Teamson_Greenskins_T3_Armor</li>
+            </apparelTags>
+		<weaponTags>
+
+			<li>Teamson_Greenskins_T3_1h</li>
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+              <li>Teamson_Greenskins_T3_Shield</li>
+
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+
+    <PawnKindDef ParentName="Teamson_Greenskin_ChosenBase">
+		<defName>Teamson_Greenskin_Berserker</defName>
+		<label>Berserker</label>
+		<race>Human</race>
+		<minGenerationAge>25</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+		<li>Teamson_Greenskins_Bers_Armor</li>
+		</apparelTags>
+		<weaponTags>
+		<li>Teamson_Greenskins_Bers</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<!-- ==========[Barbarian Warlord]========== -->
+
+	<PawnKindDef ParentName="Teamson_Greenskin_WarlordBase">
+		<defName>Teamson_Greenskin_Warlord</defName>
+		<label>Chieftain</label>
+		<race>Human</race>
+		<minGenerationAge>35</minGenerationAge>
+		<defaultFactionType>Teamson_Greenskin_NonPlayerBarbTribe</defaultFactionType>
+		<apparelTags>
+            <li>Teamson_Greenskins_T4_Helmet</li>
+			<li>Teamson_Greenskins_T4_Cloth</li>
+			<li>Teamson_Greenskins_T4_Armor</li>
+		</apparelTags>
+        <weaponTags>
+     <li>Teamson_Greenskins_T4_2h</li>
+      <li>Teamson_Greenskins_T4_1h</li>
+		</weaponTags>
+
+		<modExtensions Inherit="False">
+		  <li Class="VFECore.PawnKindDefExtension">
+			<shieldMoney>
+			  <min>0</min>
+			  <max>2000</max>
+			</shieldMoney>
+			<shieldTags>
+<li>Teamson_Greenskins_T4_Shield</li>
+			</shieldTags>
+		  </li>		
+		</modExtensions>
+	</PawnKindDef>
+	
+</Defs>

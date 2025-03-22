@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Barbarian Tribal outfit -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>pphhyy_Barbarian_BarbTribalBelt</defName>
+    <label>Barbarian Tribal outfit</label>
+    <description>Barbarian Tribal belt made from animal furs.</description>
+    <graphicData>
+      <texPath>Apparel/BarbTribalBelt/BarbTribalBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.3</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/BarbTribalBelt/BarbTribalBelt</wornGraphicPath>
+		<layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>pphhyy_Barbarian_BarbThrallApparel</li>
+		<li>Teamson_Greenskins_T0_Armor</li>
+        <li>Teamson_Greenskins_T1_Armor</li>
+		<li>Teamson_Greenskins_Bers_Armor</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_Barbarians_Building_ArmorBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  
+    <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_TribalG</defName>
+    <label>tribalwear</label>
+    <description>A full-body garment crafted using neolithic tools. While it may look primitive, it is effective at insulating the wearer.</description>
+    <graphicData>
+      <texPath>Apparel/GreenskinTribalWear/TribalG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+     
+      <li>Leathery</li>
+    </stuffCategories>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/GreenskinTribalWear/TribalG</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Teamson_Greenskins_T0_Cloth</li>
+        <li>Teamson_Greenskins_T1_Cloth</li>
+        <li>Teamson_Greenskins_T2_Cloth</li>
+		<li>Teamson_Greenskins_T3_Cloth</li>
+        <li>Teamson_Greenskins_T4_Cloth</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <displayPriority>200</displayPriority>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.6,0.45,0.18)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.8,0.6,0.23)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+  
+   <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_TribalGG</defName>
+    <label>tribalwear</label>
+    <description>A full-body garment crafted using neolithic tools. While it may look primitive, it is effective at insulating the wearer.</description>
+    <graphicData>
+      <texPath>Apparel/GreenskinTribalWear/TribalGG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      
+      <li>Leathery</li>
+    </stuffCategories>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/GreenskinTribalWear/TribalGG</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Teamson_Greenskins_T0_Cloth</li>
+        <li>Teamson_Greenskins_T1_Cloth</li>
+        <li>Teamson_Greenskins_T2_Cloth</li>
+		<li>Teamson_Greenskins_T3_Cloth</li>
+        <li>Teamson_Greenskins_T4_Cloth</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <displayPriority>200</displayPriority>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.6,0.45,0.18)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.8,0.6,0.23)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Common content -->
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Greenskin</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->High Chieftain</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

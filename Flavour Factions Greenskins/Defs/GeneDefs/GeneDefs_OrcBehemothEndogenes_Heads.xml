@@ -1,0 +1,75 @@
+<Defs>
+
+  <GeneDef ParentName="GeneJawBase">
+    <defName>OrcBehemothHead</defName>
+    <label>Greenskin Behemoth Head</label>
+    <description>Carriers of this gene tend to cover their faces with the blood of their foes.</description>
+    <iconPath>UI/Icons/Genes/Gene_HeadOrcBehemoth</iconPath>
+	<displayCategory>ORC_DEV</displayCategory>	
+    <displayOrderInCategory>97</displayOrderInCategory>
+    <forcedHeadTypes>
+      <li>OrcBehemoth_Head_Male1</li>
+	  <li>OrcBehemoth_Head_Male2</li>
+	  <li>OrcBehemoth_Head_Male3</li>
+	  <li>OrcBehemoth_Head_Male4</li>	  
+    </forcedHeadTypes>
+    <selectionWeight>0.5</selectionWeight>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+  </GeneDef>
+
+
+  
+
+
+<!-- Male -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>OrcBehemoth_Head_Male1</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Behemoth/OrcBehemoth1</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcBehemothHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>OrcBehemoth_Head_Male2</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Behemoth/OrcBehemoth2</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcBehemothHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>OrcBehemoth_Head_Male3</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Behemoth/OrcBehemoth3</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcBehemothHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+    <HeadTypeDef ParentName="AverageBase">
+    <defName>OrcBehemoth_Head_Male4</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Behemoth/OrcBehemoth4</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>Male</gender>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>OrcBehemothHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+  
+
+
+
+
+</Defs>

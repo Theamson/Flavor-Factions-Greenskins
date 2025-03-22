@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+   <GeneDef ParentName="GeneHairStyleBase">
+    <defName>OrcHairGene</defName>
+    <label>Greenskin Hair</label>
+    <labelShortAdj>Orcish</labelShortAdj>
+	<displayCategory>Orc_Genes</displayCategory>
+    <description>Carriers of this gene tend to style their hair in a warlike manner.</description>
+    <iconPath>UI/Icons/Genes/Gene_OrcHair</iconPath>
+    <displayOrderInCategory>5</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>OrcishHairstyle</li>
+		<li>OrcishHairstyleFemale</li>
+		<li>OrcishHairstyleUni</li>
+      </tags>
+    </hairTagFilter>
+    <modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+        <backgroundPathArchite>GeneIcons/BS_BackArchite_1</backgroundPathArchite>
+			</li>
+		</modExtensions>
+  </GeneDef>
+  
+     <GeneDef ParentName="GeneHairStyleBase">
+    <defName>OrcBehemothHairGene</defName>
+    <label>Greenskin Behemoth Hair</label>
+    <labelShortAdj>OrcishBehemoth</labelShortAdj>
+	<displayCategory>ORC_DEV</displayCategory>
+    <description>Carriers of this gene tend to style their hair in a warlike manner.</description>
+    <iconPath>UI/Icons/Genes/Gene_OrcBehemothHair</iconPath>
+    <displayOrderInCategory>98</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>OrcishHairstyleBehemoth</li>
+		      </tags>
+    </hairTagFilter>
+    <modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+        <backgroundPathArchite>GeneIcons/BS_BackArchite_1</backgroundPathArchite>
+			</li>
+		</modExtensions>
+  </GeneDef>
+  
+ 
+  
+</Defs>

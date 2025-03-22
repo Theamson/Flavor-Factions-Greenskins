@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerDeityGreenskin</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->[DeityFirstG] [DeityLastG]</li>
+        <li>DeityFirstG->[FirstNameDeity]</li>
+		<li>DeityLastG->[LastNameDeity]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>FirstNameDeity->Names/FirstName_GreenskinDeity</li>
+        <li>LastNameDeity->Names/LastName_GreenskinDeity</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+ 
+
+</Defs>
