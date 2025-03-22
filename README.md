@@ -7,6 +7,8 @@ The Xenotype comes with a medieval faction: The Greenskin Tribes
 With lots of costum stuff like dedicated settlement gen, names, backstorys, culture/ideo, e.g. 
 
 Required Mods (please see if those mods have requirements as well!):
+Vanilla Expanded Framework
+https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013&searchtext=vanilla+expanded+framework
 Big and Small - Genes & More
 https://steamcommunity.com/sharedfiles/filedetails/?id=2920751126
 Vanilla Ideology Expanded - Memes and Structures
