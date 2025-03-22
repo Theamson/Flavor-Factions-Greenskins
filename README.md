@@ -1,7 +1,7 @@
 To contribute please use the "Issues" Tab or direclty request a pull :) Also please see the last section: Hopes&Dreams
 
 DESCRIPTION: (yet to be done in Detail)
-This mods adds a new Xenotype: the Greenskin
+This mod adds a new Xenotype: the Greenskin
 With lots of costum art like Hairstyles, Genes, e.g.
 The Xenotype comes with a medieval faction: The Greenskin Tribes
 With lots of costum stuff like dedicated settlement gen, names, backstorys, culture/ideo, e.g. 
